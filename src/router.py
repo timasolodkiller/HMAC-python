@@ -1,38 +1,60 @@
-"""Module with routes"""
+"""Модуль с роутами API."""
 
 from typing import Annotated
 
 from fastapi import APIRouter, Depends
+from fastapi.responses import JSONResponse
 
+from src.codec import decode_signature, encode_signature
+from src.config import SETTINGS
 from src.hmac_service import HMACSigner, hmac_service
-from src.models import SignRequest, VerifyRequest, VerifyResponse
+from src.log.log_messages import (
+    LOG_REQUEST_BODY,
+    LOG_SIGN_REQUEST,
+    LOG_SIGN_SUCCESS,
+    LOG_VERIFY_BODY,
+    LOG_VERIFY_REQUEST,
+    LOG_VERIFY_RESULT,
+)
+from src.log.logger import setup_logger
+from src.models import SignRequest, VerifyRequest
+from src.validators.validators import check_msg, check_signature
 
+logger = setup_logger(__name__)
 router = APIRouter()
 
 
-# TODO: напишите логику для ручки подписи
 @router.post('/sign')
-async def sign(request: SignRequest, hmac_service: Annotated[HMACSigner, Depends(hmac_service)]) -> str:
-    """
-    Sign handler.
+async def sign(
+    request: SignRequest,
+    hmac_service: Annotated[HMACSigner, Depends(hmac_service)]
+):
+    """Подписывает сообщение."""
+    logger.debug(LOG_REQUEST_BODY.format(len(request.msg)))
+    logger.info(LOG_SIGN_REQUEST)
 
-    :param request: Request model.
-    :param hmac_service: HMAC service dependency.
-    :return: URL safe signature for message.
-    :raises HTTPException: If message invalid (empty or very big).
-    """
-    pass
+    check_msg(request.msg, SETTINGS.max_msg_size_bytes)
+    sig_bytes = hmac_service.sign(request.msg)
+    sig_str = encode_signature(sig_bytes)
+
+    logger.info(LOG_SIGN_SUCCESS)
+    return JSONResponse({'signature': sig_str})
 
 
-# TODO: напишите логику для ручки проверки подписи
 @router.post('/verify')
-async def verify(request: VerifyRequest, hmac_service: Annotated[HMACSigner, Depends(hmac_service)]) -> VerifyResponse:
-    """
-    Verify message with signature handler.
+async def verify(
+    request: VerifyRequest,
+    hmac_service: Annotated[HMACSigner, Depends(hmac_service)]
+):
+    """Проверяет подпись сообщения."""
+    logger.debug(LOG_VERIFY_BODY.format(len(request.msg), len(request.signature)))
+    logger.info(LOG_VERIFY_REQUEST)
 
-    :param request: Request model.
-    :param hmac_service: HMAC service dependency.
-    :return: VerifyResponse model.
-    :raises HTTPException: If invalid message or signature.
-    """
-    pass
+    check_msg(request.msg, SETTINGS.max_msg_size_bytes)
+    check_signature(request.signature)
+
+    sig_bytes = decode_signature(request.signature)
+    result = hmac_service.verify(request.msg, sig_bytes)
+
+    logger.info(LOG_VERIFY_RESULT.format(result))
+    return JSONResponse({'ok': result})

@@ -1,0 +1,9 @@
+{
+  "hmac_alg": "SHA256",
+  "secret": "W6M+Se1uKyiHFKBSvO/TGrXr1QAeIFmBarFGeRavpWA=",
+  "log_level": "info",
+  "listen": "0.0.0.0:8080",
+  "max_msg_size_bytes": 1048576,
+  "port": 8080,
+  "host": "localhost"
+}
