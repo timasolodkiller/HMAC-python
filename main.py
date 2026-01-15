@@ -1,4 +1,4 @@
-"""Main module for run FastAPI application"""
+"""Главный модуль запуска приложения."""
 
 import uvicorn
 

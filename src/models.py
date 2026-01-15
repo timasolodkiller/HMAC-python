@@ -1,6 +1,9 @@
 """Все модели приложения."""
+import base64
 
 from dataclasses import dataclass
+
+from .exceptions.exceptions import ConfigError
 
 
 @dataclass(frozen=True)
@@ -36,3 +39,10 @@ class Settings:
     hmac_alg: str
     log_level: str
     listen: str
+
+    def __post_init__(self):
+        """Функция проверки секрета."""
+        try:
+            base64.b64decode(self.secret, validate=True)
+        except Exception as e:
+            raise ConfigError('invalid_secret') from e

@@ -23,15 +23,16 @@ def rotate_secret():
     """Обновляет секрет в конфигурационном файле."""
     with open(CONFIG_PATH, 'r', encoding='utf-8') as f:
         config = json.load(f)
-    
+
     new_secret = generate_secret()
     config['secret'] = new_secret
-    
+
     with open(CONFIG_PATH, 'w', encoding='utf-8') as f:
         json.dump(config, f, indent=2, ensure_ascii=False)
-    
+
     print('Секрет успешно обновлён!')
     print(f'Новый секрет: {new_secret[:10]}...')
+
 
 if __name__ == '__main__':
     rotate_secret()

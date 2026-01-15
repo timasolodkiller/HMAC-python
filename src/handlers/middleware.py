@@ -46,9 +46,11 @@ class BodySizeLimitMiddleware(BaseHTTPMiddleware):
                     length = int(content_length)
                     if length > self.max_bytes_size_int:
                         logger.warning(
-                            LOG_BODY_TOO_LARGE.format(length, self.max_bytes_size_int)
+                            LOG_BODY_TOO_LARGE.format(
+                                length, self.max_bytes_size_int)
                         )
                         return build_json_response(BODY_TOO_LARGE)
                 except ValueError:
-                    logger.warning(LOG_CONTENT_LENGTH_INVALID.format(content_length))
+                    logger.warning(LOG_CONTENT_LENGTH_INVALID.format(
+                        content_length))
         return await call_next(request)

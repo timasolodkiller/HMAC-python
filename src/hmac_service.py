@@ -4,7 +4,6 @@ import base64
 import hashlib
 import hmac
 
-from src.config import SETTINGS
 from src.log.log_messages import (
     LOG_MSG_SIGNED,
     LOG_SECRET_DECODED,
@@ -15,6 +14,7 @@ from src.log.log_messages import (
     LOG_SIGNER_INIT,
 )
 from src.log.logger import setup_logger
+from src.config import SETTINGS
 
 logger = setup_logger(__name__)
 

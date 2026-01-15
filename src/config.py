@@ -1,32 +1,34 @@
 """Загрузка переменных из config."""
 
 import json
-import logging
-import sys
+from typing import Optional
 
-from src.log.log_messages import (
-    LOG_CONFIG_LOADED,
-    LOG_CONFIG_LOAD_ERROR,
-    LOG_CONFIG_NOT_FOUND,
-    LOG_CONFIG_PARSE_ERROR,
-)
-from src.log.logger import setup_logger
-from .models import Settings
+from src.utils import get_config_path
+from src.models import Settings
+from src.exceptions.exceptions import ConfigError
 
 
-logger = setup_logger(__name__)
+CONFIG_PATH = get_config_path(__file__)
 
-try:
-    with open('config.json', 'r', encoding='utf-8') as f:
-        cfg = json.load(f)
-    SETTINGS = Settings(**cfg)
-    logger.info(LOG_CONFIG_LOADED)
-except FileNotFoundError:
-    logger.critical(LOG_CONFIG_NOT_FOUND)
-    sys.exit(1)
-except json.JSONDecodeError as e:
-    logger.critical(LOG_CONFIG_PARSE_ERROR.format(e))
-    sys.exit(1)
-except Exception as e:
-    logger.critical(LOG_CONFIG_LOAD_ERROR.format(e))
-    sys.exit(1)
+
+def load_settings(config_path: Optional[str] = None) -> Settings:
+    """Загрузка настроек из config."""
+    path = config_path or get_config_path(__file__)
+
+    try:
+        with open(path, 'r', encoding='utf-8') as f:
+            cfg = json.load(f)
+    except FileNotFoundError as e:
+        raise ConfigError('config_not_found') from e
+    except json.JSONDecodeError as e:
+        raise ConfigError('invalid_json') from e
+    except Exception as e:
+        raise ConfigError('config_load_error') from e
+    try:
+        settings = Settings(**cfg)
+    except Exception as e:
+        raise ConfigError('invalid_config_fields') from e
+    return settings
+
+
+SETTINGS = load_settings()

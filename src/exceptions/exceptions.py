@@ -8,3 +8,9 @@ class AppError(Exception):
         """Инициализация с кодом ошибки."""
         self.code = code
         super().__init__(code)
+
+
+class ConfigError(Exception):
+    """Исключение для неверного конфига."""
+
+    pass

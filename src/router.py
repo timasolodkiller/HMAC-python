@@ -6,7 +6,6 @@ from fastapi import APIRouter, Depends
 from fastapi.responses import JSONResponse
 
 from src.codec import decode_signature, encode_signature
-from src.config import SETTINGS
 from src.hmac_service import HMACSigner, hmac_service
 from src.log.log_messages import (
     LOG_REQUEST_BODY,
@@ -19,6 +18,8 @@ from src.log.log_messages import (
 from src.log.logger import setup_logger
 from src.models import SignRequest, VerifyRequest
 from src.validators.validators import check_msg, check_signature
+from src.config import SETTINGS
+
 
 logger = setup_logger(__name__)
 router = APIRouter()
@@ -27,7 +28,7 @@ router = APIRouter()
 @router.post('/sign')
 async def sign(
     request: SignRequest,
-    hmac_service: Annotated[HMACSigner, Depends(hmac_service)]
+    hmac_service: Annotated[HMACSigner, Depends(hmac_service)],
 ):
     """Подписывает сообщение."""
     logger.debug(LOG_REQUEST_BODY.format(len(request.msg)))
@@ -44,10 +45,11 @@ async def sign(
 @router.post('/verify')
 async def verify(
     request: VerifyRequest,
-    hmac_service: Annotated[HMACSigner, Depends(hmac_service)]
+    hmac_service: Annotated[HMACSigner, Depends(hmac_service)],
 ):
     """Проверяет подпись сообщения."""
-    logger.debug(LOG_VERIFY_BODY.format(len(request.msg), len(request.signature)))
+    logger.debug(LOG_VERIFY_BODY.format(len(request.msg),
+                                        len(request.signature)))
     logger.info(LOG_VERIFY_REQUEST)
 
     check_msg(request.msg, SETTINGS.max_msg_size_bytes)
