@@ -12,8 +12,8 @@ from .messages import (
 )
 
 
-INVALID_MSG_RESPONSE = {'detail': 'invalid_msg'}
-TOO_LARGE_MSG_RESPONSE = {'detail': 'payload_too_large'}
+INVALID_MSG_RESPONSE = {'error': 'invalid_msg'}
+TOO_LARGE_MSG_RESPONSE = {'error': 'payload_too_large'}
 
 
 def sign(
@@ -113,7 +113,7 @@ def test_verify_invalid_signature_format(client, signature, random_msg):
     """Проверка неверных форматов подписи."""
     response = verify(client, signature, random_msg,
                       expected_status_code=status.HTTP_400_BAD_REQUEST)
-    assert response == {'detail': 'invalid_signature_format'}, (
+    assert response == {'error': 'invalid_signature_format'}, (
             INVALID_SIGNATURE)
 
 
@@ -141,7 +141,7 @@ def test_sign_large_message(client, large_msg):
     response = sign(client, msg=large_msg,
                     expected_status_code=status.HTTP_413_CONTENT_TOO_LARGE)
     assert response == TOO_LARGE_MSG_RESPONSE, LARGE_MESSAGE_ERROR.format(
-        'response', 'detail: payload_too_large')
+        'response', 'error: payload_too_large')
 
 
 def test_verify_wrong_message(client, random_msg):
@@ -163,8 +163,8 @@ def test_sign_wrong_content_type(client, random_msg):
     assert response.status_code == status.HTTP_422_UNPROCESSABLE_CONTENT, (
         INVALID_CONTENT_TYPE.format('code', '422')
     )
-    assert response.json() == {'detail': 'invalid_content_type'}, (
+    assert response.json() == {'error': 'invalid_content_type'}, (
         INVALID_CONTENT_TYPE.format(
-            'response', 'detail: invalid_content_type'
+            'response', 'error: invalid_content_type'
         )
     )

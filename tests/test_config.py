@@ -8,16 +8,17 @@ from src.config import load_settings
 from src.models import Settings
 from src.exceptions.exceptions import ConfigError
 
+NOT_BASE_64_SECRET = 'NOT_BASE64!!!'
 
-def test_load_settings_ok(tmp_path, valid_config_dict):
+
+def test_load_settings_ok(config_path):
     """Проверка, что конфиг корректно загружается."""
-    p = tmp_path / 'config.json'
-    p.write_text(json.dumps(valid_config_dict), encoding='utf-8')
-
-    s = load_settings(str(p))
+    s = load_settings(config_path)
     assert isinstance(s, Settings), SETTINGS_HAVING_ERROR
-    assert s.port == 8080, SETTINGS_ATTRS_ERROR
-    assert s.max_msg_size_bytes == 1048576, SETTINGS_ATTRS_ERROR
+
+    cfg = json.loads(open(config_path, encoding="utf-8").read())
+    for key, expected in cfg.items():
+        assert getattr(s, key) == expected, SETTINGS_ATTRS_ERROR
 
 
 def test_load_settings_file_not_found(tmp_path):
@@ -26,7 +27,7 @@ def test_load_settings_file_not_found(tmp_path):
         load_settings(str(tmp_path / 'missing.json'))
 
 
-def test_load_settings_invalid_json(tmp_path):
+def test_load_settings_invalid_json(tmp_path, valid_config_dict):
     """Проверка, что если JSON не валидного формата."""
     """Программа должна остановиться."""
     p = tmp_path / 'config.json'
@@ -36,25 +37,21 @@ def test_load_settings_invalid_json(tmp_path):
         load_settings(str(p))
 
 
-def test_load_settings_missing_field(tmp_path, valid_config_dict):
-    """Проверка. что если нет какого-либо атрибута то программа остановится."""
-    cfg = dict(valid_config_dict)
-    cfg.pop('port')
-
-    p = tmp_path / 'config.json'
-    p.write_text(json.dumps(cfg), encoding='utf-8')
+def test_load_settings_missing_field(config_path):
+    """Проверка, что если нет какого-либо атрибута то программа остановится."""
+    cfg = json.loads(open(config_path, encoding="utf-8").read())
+    cfg.pop('port', None)
+    open(config_path, "w", encoding="utf-8").write(json.dumps(cfg))
 
     with pytest.raises(ConfigError):
-        load_settings(str(p))
+        load_settings(config_path)
 
 
-def test_load_settings_invalid_secret(tmp_path, valid_config_dict):
-    """Проверка. что если секрет не валидный то программа остановится."""
-    cfg = dict(valid_config_dict)
-    cfg['secret'] = 'NOT_BASE64!!!'
-
-    p = tmp_path / 'config.json'
-    p.write_text(json.dumps(cfg), encoding='utf-8')
+def test_load_settings_invalid_secret(config_path):
+    """Проверка, что если секрет не валидный то программа остановится."""
+    cfg = json.loads(open(config_path, encoding="utf-8").read())
+    cfg['secret'] = NOT_BASE_64_SECRET
+    open(config_path, "w", encoding="utf-8").write(json.dumps(cfg))
 
     with pytest.raises(ConfigError):
-        load_settings(str(p))
+        load_settings(config_path)

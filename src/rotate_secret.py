@@ -2,15 +2,12 @@
 
 import base64
 import json
-import os
 import secrets
 
+from src.utils import get_config_path
 
-SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 
-PROJECT_ROOT = os.path.dirname(SCRIPT_DIR)
-
-CONFIG_PATH = os.path.join(PROJECT_ROOT, 'config.json')
+CONFIG_PATH = get_config_path(__file__)
 
 
 def generate_secret(length: int = 32) -> str:
@@ -19,15 +16,15 @@ def generate_secret(length: int = 32) -> str:
     return base64.b64encode(random_bytes).decode('ascii')
 
 
-def rotate_secret():
+def rotate_secret(config_path: str = CONFIG_PATH):
     """Обновляет секрет в конфигурационном файле."""
-    with open(CONFIG_PATH, 'r', encoding='utf-8') as f:
+    with open(config_path, 'r', encoding='utf-8') as f:
         config = json.load(f)
 
     new_secret = generate_secret()
     config['secret'] = new_secret
 
-    with open(CONFIG_PATH, 'w', encoding='utf-8') as f:
+    with open(config_path, 'w', encoding='utf-8') as f:
         json.dump(config, f, indent=2, ensure_ascii=False)
 
     print('Секрет успешно обновлён!')

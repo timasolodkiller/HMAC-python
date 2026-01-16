@@ -103,3 +103,12 @@ SETTINGS_HAVING_ERROR = (
 SETTINGS_ATTRS_ERROR = (
     'Убедитесь, что в SETTINGS из конфига все верно считывается.'
 )
+
+# Сообщения для теста rotate_secret
+NOT_CHANGED_SECRET = (
+    'Убедитесь, что rotate_secret действительно подставляет в '
+    'конфиг новый secret.'
+)
+VALID_SECRET = (
+    'Убедитесь, что rotate_secret подставляет валидный secret.'
+)

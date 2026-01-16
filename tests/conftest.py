@@ -87,3 +87,13 @@ def valid_config_dict() -> dict:
         'log_level': 'info',
         'listen': '0.0.0.0:8080',
     }
+
+
+@pytest.fixture()
+def config_path(tmp_path, valid_config_dict) -> str:
+    """Фикстура, создающая файл с валидным конфигом и возвращающая путь."""
+    cfg = dict(valid_config_dict)
+    cfg['secret'] = base64.b64encode(b'x' * 32).decode('ascii')
+    p = tmp_path / 'config.json'
+    p.write_text(json.dumps(cfg), encoding='utf-8')
+    return str(p)

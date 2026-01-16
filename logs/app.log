@@ -1,0 +1,1379 @@
+2026-01-16 08:11:14,246 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:11:14,247 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:11:14,247 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:11:14,248 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:11:14,248 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:11:14,248 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:11:14,248 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:11:14,248 - src.hmac_service - INFO - Подпись валидна
+2026-01-16 08:11:14,248 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:11:14,248 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:11:14,248 - src.hmac_service - WARNING - Подпись НЕ валидна!
+2026-01-16 08:11:14,249 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:11:14,249 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:11:14,249 - src.hmac_service - WARNING - Подпись НЕ валидна!
+2026-01-16 08:11:14,249 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:11:14,249 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:11:14,250 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:11:14,250 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:11:14,250 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:11:14,250 - src.hmac_service - INFO - Подпись валидна
+2026-01-16 08:11:14,256 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:11:14,256 - src.router - INFO - POST /sign
+2026-01-16 08:11:14,256 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:11:14,256 - src.router - INFO - POST /sign — успех
+2026-01-16 08:11:14,258 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:11:14,258 - src.router - INFO - POST /sign
+2026-01-16 08:11:14,258 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:11:14,258 - src.router - INFO - POST /sign — успех
+2026-01-16 08:11:14,259 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:11:14,259 - src.router - INFO - POST /verify
+2026-01-16 08:11:14,259 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:11:14,259 - src.hmac_service - INFO - Подпись валидна
+2026-01-16 08:11:14,259 - src.router - INFO - POST /verify — ok=True
+2026-01-16 08:11:14,261 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:11:14,261 - src.router - INFO - POST /sign
+2026-01-16 08:11:14,261 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:11:14,261 - src.router - INFO - POST /sign — успех
+2026-01-16 08:11:14,262 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:11:14,262 - src.router - INFO - POST /verify
+2026-01-16 08:11:14,262 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:11:14,262 - src.hmac_service - INFO - Подпись валидна
+2026-01-16 08:11:14,262 - src.router - INFO - POST /verify — ok=True
+2026-01-16 08:11:14,264 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:11:14,265 - src.router - INFO - POST /sign
+2026-01-16 08:11:14,265 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:11:14,265 - src.router - INFO - POST /sign — успех
+2026-01-16 08:11:14,266 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:11:14,266 - src.router - INFO - POST /verify
+2026-01-16 08:11:14,266 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:11:14,266 - src.hmac_service - WARNING - Подпись НЕ валидна!
+2026-01-16 08:11:14,266 - src.router - INFO - POST /verify — ok=False
+2026-01-16 08:11:14,268 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:11:14,268 - src.router - INFO - POST /sign
+2026-01-16 08:11:14,268 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:11:14,268 - src.router - INFO - POST /sign — успех
+2026-01-16 08:11:14,269 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:11:14,270 - src.router - INFO - POST /verify
+2026-01-16 08:11:14,270 - src.validators.validators - WARNING - Получено пустое или невалидное сообщение
+2026-01-16 08:11:14,270 - src.handlers.handlers - WARNING - Ошибка приложения: invalid_msg
+2026-01-16 08:11:14,271 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:11:14,271 - src.router - INFO - POST /sign
+2026-01-16 08:11:14,271 - src.validators.validators - WARNING - Получено пустое или невалидное сообщение
+2026-01-16 08:11:14,271 - src.handlers.handlers - WARNING - Ошибка приложения: invalid_msg
+2026-01-16 08:11:14,272 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:11:14,272 - src.router - INFO - POST /verify
+2026-01-16 08:11:14,272 - src.validators.validators - WARNING - Получено пустое или невалидное сообщение
+2026-01-16 08:11:14,272 - src.handlers.handlers - WARNING - Ошибка приложения: invalid_msg
+2026-01-16 08:11:14,273 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:11:14,273 - src.router - INFO - POST /sign
+2026-01-16 08:11:14,273 - src.validators.validators - WARNING - Получено пустое или невалидное сообщение
+2026-01-16 08:11:14,273 - src.handlers.handlers - WARNING - Ошибка приложения: invalid_msg
+2026-01-16 08:11:14,275 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:11:14,275 - src.router - INFO - POST /verify
+2026-01-16 08:11:14,275 - src.validators.validators - WARNING - Невалидный формат подписи, длина: 3
+2026-01-16 08:11:14,275 - src.handlers.handlers - WARNING - Ошибка приложения: invalid_signature_format
+2026-01-16 08:11:14,278 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:11:14,279 - src.router - INFO - POST /verify
+2026-01-16 08:11:14,279 - src.validators.validators - WARNING - Невалидный формат подписи, длина: 4
+2026-01-16 08:11:14,279 - src.handlers.handlers - WARNING - Ошибка приложения: invalid_signature_format
+2026-01-16 08:11:14,280 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:11:14,280 - src.router - INFO - POST /sign
+2026-01-16 08:11:14,280 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:11:14,280 - src.router - INFO - POST /sign — успех
+2026-01-16 08:11:14,281 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:11:14,281 - src.router - INFO - POST /sign
+2026-01-16 08:11:14,281 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:11:14,281 - src.router - INFO - POST /sign — успех
+2026-01-16 08:11:14,283 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:11:14,283 - src.router - INFO - POST /sign
+2026-01-16 08:11:14,283 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:11:14,283 - src.router - INFO - POST /sign — успех
+2026-01-16 08:11:14,284 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:11:14,284 - src.router - INFO - POST /sign
+2026-01-16 08:11:14,284 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:11:14,284 - src.router - INFO - POST /sign — успех
+2026-01-16 08:11:14,287 - src.handlers.middleware - WARNING - Тело запроса слишком большое: 1048587 > 1048576
+2026-01-16 08:11:14,289 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:11:14,289 - src.router - INFO - POST /sign
+2026-01-16 08:11:14,289 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:11:14,289 - src.router - INFO - POST /sign — успех
+2026-01-16 08:11:14,290 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:11:14,290 - src.router - INFO - POST /verify
+2026-01-16 08:11:14,290 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:11:14,290 - src.hmac_service - WARNING - Подпись НЕ валидна!
+2026-01-16 08:11:14,290 - src.router - INFO - POST /verify — ok=False
+2026-01-16 08:11:14,291 - src.handlers.middleware - WARNING - Неверный Content-Type: text/plain
+2026-01-16 08:12:02,556 - src.handlers.handlers - ERROR - Ошибка валидации запроса: [{'type': 'json_invalid', 'loc': ('body', 21), 'msg': 'JSON decode error', 'input': {}, 'ctx': {'error': 'Illegal trailing comma before end of object'}}]
+2026-01-16 08:23:27,769 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:23:27,770 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:23:27,770 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:23:27,770 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:23:27,770 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:23:27,770 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:23:27,770 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:23:27,770 - src.hmac_service - INFO - Подпись валидна
+2026-01-16 08:23:27,771 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:23:27,771 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:23:27,771 - src.hmac_service - WARNING - Подпись НЕ валидна!
+2026-01-16 08:23:27,771 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:23:27,771 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:23:27,771 - src.hmac_service - WARNING - Подпись НЕ валидна!
+2026-01-16 08:23:27,771 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:23:27,772 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:23:27,772 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:23:27,772 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:23:27,773 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:23:27,773 - src.hmac_service - INFO - Подпись валидна
+2026-01-16 08:23:27,790 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:23:27,790 - src.router - INFO - POST /sign
+2026-01-16 08:23:27,791 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:23:27,791 - src.router - INFO - POST /sign — успех
+2026-01-16 08:23:27,792 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:23:27,793 - src.router - INFO - POST /sign
+2026-01-16 08:23:27,793 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:23:27,793 - src.router - INFO - POST /sign — успех
+2026-01-16 08:23:27,794 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:23:27,794 - src.router - INFO - POST /verify
+2026-01-16 08:23:27,794 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:23:27,794 - src.hmac_service - INFO - Подпись валидна
+2026-01-16 08:23:27,794 - src.router - INFO - POST /verify — ok=True
+2026-01-16 08:23:27,795 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:23:27,795 - src.router - INFO - POST /sign
+2026-01-16 08:23:27,795 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:23:27,795 - src.router - INFO - POST /sign — успех
+2026-01-16 08:23:27,797 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:23:27,797 - src.router - INFO - POST /verify
+2026-01-16 08:23:27,797 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:23:27,797 - src.hmac_service - INFO - Подпись валидна
+2026-01-16 08:23:27,797 - src.router - INFO - POST /verify — ok=True
+2026-01-16 08:23:27,799 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:23:27,799 - src.router - INFO - POST /sign
+2026-01-16 08:23:27,799 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:23:27,799 - src.router - INFO - POST /sign — успех
+2026-01-16 08:23:27,800 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:23:27,800 - src.router - INFO - POST /verify
+2026-01-16 08:23:27,800 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:23:27,800 - src.hmac_service - WARNING - Подпись НЕ валидна!
+2026-01-16 08:23:27,800 - src.router - INFO - POST /verify — ok=False
+2026-01-16 08:23:27,801 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:23:27,801 - src.router - INFO - POST /sign
+2026-01-16 08:23:27,801 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:23:27,802 - src.router - INFO - POST /sign — успех
+2026-01-16 08:23:27,803 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:23:27,803 - src.router - INFO - POST /verify
+2026-01-16 08:23:27,803 - src.validators.validators - WARNING - Получено пустое или невалидное сообщение
+2026-01-16 08:23:27,803 - src.handlers.handlers - WARNING - Ошибка приложения: invalid_msg
+2026-01-16 08:23:27,804 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:23:27,804 - src.router - INFO - POST /sign
+2026-01-16 08:23:27,804 - src.validators.validators - WARNING - Получено пустое или невалидное сообщение
+2026-01-16 08:23:27,804 - src.handlers.handlers - WARNING - Ошибка приложения: invalid_msg
+2026-01-16 08:23:27,806 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:23:27,806 - src.router - INFO - POST /verify
+2026-01-16 08:23:27,806 - src.validators.validators - WARNING - Получено пустое или невалидное сообщение
+2026-01-16 08:23:27,806 - src.handlers.handlers - WARNING - Ошибка приложения: invalid_msg
+2026-01-16 08:23:27,807 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:23:27,807 - src.router - INFO - POST /sign
+2026-01-16 08:23:27,807 - src.validators.validators - WARNING - Получено пустое или невалидное сообщение
+2026-01-16 08:23:27,807 - src.handlers.handlers - WARNING - Ошибка приложения: invalid_msg
+2026-01-16 08:23:27,810 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:23:27,810 - src.router - INFO - POST /verify
+2026-01-16 08:23:27,810 - src.validators.validators - WARNING - Невалидный формат подписи, длина: 3
+2026-01-16 08:23:27,810 - src.handlers.handlers - WARNING - Ошибка приложения: invalid_signature_format
+2026-01-16 08:23:27,811 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:23:27,812 - src.router - INFO - POST /verify
+2026-01-16 08:23:27,812 - src.validators.validators - WARNING - Невалидный формат подписи, длина: 4
+2026-01-16 08:23:27,812 - src.handlers.handlers - WARNING - Ошибка приложения: invalid_signature_format
+2026-01-16 08:23:27,813 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:23:27,813 - src.router - INFO - POST /sign
+2026-01-16 08:23:27,813 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:23:27,813 - src.router - INFO - POST /sign — успех
+2026-01-16 08:23:27,814 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:23:27,814 - src.router - INFO - POST /sign
+2026-01-16 08:23:27,814 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:23:27,814 - src.router - INFO - POST /sign — успех
+2026-01-16 08:23:27,816 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:23:27,816 - src.router - INFO - POST /sign
+2026-01-16 08:23:27,816 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:23:27,816 - src.router - INFO - POST /sign — успех
+2026-01-16 08:23:27,817 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:23:27,817 - src.router - INFO - POST /sign
+2026-01-16 08:23:27,817 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:23:27,817 - src.router - INFO - POST /sign — успех
+2026-01-16 08:23:27,820 - src.handlers.middleware - WARNING - Тело запроса слишком большое: 1048587 > 1048576
+2026-01-16 08:23:27,821 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:23:27,821 - src.router - INFO - POST /sign
+2026-01-16 08:23:27,821 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:23:27,821 - src.router - INFO - POST /sign — успех
+2026-01-16 08:23:27,823 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:23:27,823 - src.router - INFO - POST /verify
+2026-01-16 08:23:27,823 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:23:27,823 - src.hmac_service - WARNING - Подпись НЕ валидна!
+2026-01-16 08:23:27,823 - src.router - INFO - POST /verify — ok=False
+2026-01-16 08:23:27,824 - src.handlers.middleware - WARNING - Неверный Content-Type: text/plain
+2026-01-16 08:25:48,633 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:25:48,634 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:25:48,634 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:25:48,635 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:25:48,635 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:25:48,635 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:25:48,635 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:25:48,635 - src.hmac_service - INFO - Подпись валидна
+2026-01-16 08:25:48,635 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:25:48,635 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:25:48,635 - src.hmac_service - WARNING - Подпись НЕ валидна!
+2026-01-16 08:25:48,636 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:25:48,636 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:25:48,636 - src.hmac_service - WARNING - Подпись НЕ валидна!
+2026-01-16 08:25:48,636 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:25:48,636 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:25:48,637 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:25:48,637 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:25:48,637 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:25:48,637 - src.hmac_service - INFO - Подпись валидна
+2026-01-16 08:25:48,654 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:25:48,654 - src.router - INFO - POST /sign
+2026-01-16 08:25:48,655 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:25:48,655 - src.router - INFO - POST /sign — успех
+2026-01-16 08:25:48,656 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:25:48,656 - src.router - INFO - POST /sign
+2026-01-16 08:25:48,657 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:25:48,657 - src.router - INFO - POST /sign — успех
+2026-01-16 08:25:48,658 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:25:48,658 - src.router - INFO - POST /verify
+2026-01-16 08:25:48,658 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:25:48,658 - src.hmac_service - INFO - Подпись валидна
+2026-01-16 08:25:48,658 - src.router - INFO - POST /verify — ok=True
+2026-01-16 08:25:48,659 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:25:48,659 - src.router - INFO - POST /sign
+2026-01-16 08:25:48,659 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:25:48,659 - src.router - INFO - POST /sign — успех
+2026-01-16 08:25:48,661 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:25:48,662 - src.router - INFO - POST /verify
+2026-01-16 08:25:48,662 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:25:48,662 - src.hmac_service - INFO - Подпись валидна
+2026-01-16 08:25:48,662 - src.router - INFO - POST /verify — ok=True
+2026-01-16 08:25:48,663 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:25:48,663 - src.router - INFO - POST /sign
+2026-01-16 08:25:48,663 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:25:48,663 - src.router - INFO - POST /sign — успех
+2026-01-16 08:25:48,664 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:25:48,664 - src.router - INFO - POST /verify
+2026-01-16 08:25:48,665 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:25:48,665 - src.hmac_service - WARNING - Подпись НЕ валидна!
+2026-01-16 08:25:48,665 - src.router - INFO - POST /verify — ok=False
+2026-01-16 08:25:48,666 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:25:48,666 - src.router - INFO - POST /sign
+2026-01-16 08:25:48,666 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:25:48,666 - src.router - INFO - POST /sign — успех
+2026-01-16 08:25:48,667 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:25:48,667 - src.router - INFO - POST /verify
+2026-01-16 08:25:48,667 - src.validators.validators - WARNING - Получено пустое или невалидное сообщение
+2026-01-16 08:25:48,667 - src.handlers.handlers - WARNING - Ошибка приложения: invalid_msg
+2026-01-16 08:25:48,668 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:25:48,668 - src.router - INFO - POST /sign
+2026-01-16 08:25:48,669 - src.validators.validators - WARNING - Получено пустое или невалидное сообщение
+2026-01-16 08:25:48,669 - src.handlers.handlers - WARNING - Ошибка приложения: invalid_msg
+2026-01-16 08:25:48,671 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:25:48,671 - src.router - INFO - POST /verify
+2026-01-16 08:25:48,671 - src.validators.validators - WARNING - Получено пустое или невалидное сообщение
+2026-01-16 08:25:48,671 - src.handlers.handlers - WARNING - Ошибка приложения: invalid_msg
+2026-01-16 08:25:48,672 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:25:48,672 - src.router - INFO - POST /sign
+2026-01-16 08:25:48,672 - src.validators.validators - WARNING - Получено пустое или невалидное сообщение
+2026-01-16 08:25:48,672 - src.handlers.handlers - WARNING - Ошибка приложения: invalid_msg
+2026-01-16 08:25:48,675 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:25:48,675 - src.router - INFO - POST /verify
+2026-01-16 08:25:48,675 - src.validators.validators - WARNING - Невалидный формат подписи, длина: 3
+2026-01-16 08:25:48,675 - src.handlers.handlers - WARNING - Ошибка приложения: invalid_signature_format
+2026-01-16 08:25:48,677 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:25:48,677 - src.router - INFO - POST /verify
+2026-01-16 08:25:48,677 - src.validators.validators - WARNING - Невалидный формат подписи, длина: 4
+2026-01-16 08:25:48,677 - src.handlers.handlers - WARNING - Ошибка приложения: invalid_signature_format
+2026-01-16 08:25:48,679 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:25:48,679 - src.router - INFO - POST /sign
+2026-01-16 08:25:48,679 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:25:48,679 - src.router - INFO - POST /sign — успех
+2026-01-16 08:25:48,680 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:25:48,680 - src.router - INFO - POST /sign
+2026-01-16 08:25:48,680 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:25:48,680 - src.router - INFO - POST /sign — успех
+2026-01-16 08:25:48,682 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:25:48,682 - src.router - INFO - POST /sign
+2026-01-16 08:25:48,682 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:25:48,682 - src.router - INFO - POST /sign — успех
+2026-01-16 08:25:48,683 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:25:48,683 - src.router - INFO - POST /sign
+2026-01-16 08:25:48,683 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:25:48,683 - src.router - INFO - POST /sign — успех
+2026-01-16 08:25:48,690 - src.handlers.middleware - WARNING - Тело запроса слишком большое: 1048587 > 1048576
+2026-01-16 08:25:48,691 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:25:48,691 - src.router - INFO - POST /sign
+2026-01-16 08:25:48,691 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:25:48,691 - src.router - INFO - POST /sign — успех
+2026-01-16 08:25:48,692 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:25:48,692 - src.router - INFO - POST /verify
+2026-01-16 08:25:48,692 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:25:48,692 - src.hmac_service - WARNING - Подпись НЕ валидна!
+2026-01-16 08:25:48,692 - src.router - INFO - POST /verify — ok=False
+2026-01-16 08:25:48,693 - src.handlers.middleware - WARNING - Неверный Content-Type: text/plain
+2026-01-16 08:33:25,809 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:33:25,810 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:33:25,810 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:33:25,810 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:33:25,810 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:33:25,810 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:33:25,810 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:33:25,810 - src.hmac_service - INFO - Подпись валидна
+2026-01-16 08:33:25,811 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:33:25,811 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:33:25,811 - src.hmac_service - WARNING - Подпись НЕ валидна!
+2026-01-16 08:33:25,811 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:33:25,811 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:33:25,811 - src.hmac_service - WARNING - Подпись НЕ валидна!
+2026-01-16 08:33:25,811 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:33:25,812 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:33:25,812 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:33:25,812 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:33:25,813 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:33:25,813 - src.hmac_service - INFO - Подпись валидна
+2026-01-16 08:33:25,835 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:33:25,835 - src.router - INFO - POST /sign
+2026-01-16 08:33:25,835 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:33:25,835 - src.router - INFO - POST /sign — успех
+2026-01-16 08:33:25,837 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:33:25,837 - src.router - INFO - POST /sign
+2026-01-16 08:33:25,837 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:33:25,837 - src.router - INFO - POST /sign — успех
+2026-01-16 08:33:25,838 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:33:25,838 - src.router - INFO - POST /verify
+2026-01-16 08:33:25,838 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:33:25,838 - src.hmac_service - INFO - Подпись валидна
+2026-01-16 08:33:25,838 - src.router - INFO - POST /verify — ok=True
+2026-01-16 08:33:25,840 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:33:25,840 - src.router - INFO - POST /sign
+2026-01-16 08:33:25,840 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:33:25,840 - src.router - INFO - POST /sign — успех
+2026-01-16 08:33:25,841 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:33:25,842 - src.router - INFO - POST /verify
+2026-01-16 08:33:25,842 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:33:25,842 - src.hmac_service - INFO - Подпись валидна
+2026-01-16 08:33:25,842 - src.router - INFO - POST /verify — ok=True
+2026-01-16 08:33:25,843 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:33:25,843 - src.router - INFO - POST /sign
+2026-01-16 08:33:25,843 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:33:25,843 - src.router - INFO - POST /sign — успех
+2026-01-16 08:33:25,844 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:33:25,845 - src.router - INFO - POST /verify
+2026-01-16 08:33:25,845 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:33:25,845 - src.hmac_service - WARNING - Подпись НЕ валидна!
+2026-01-16 08:33:25,845 - src.router - INFO - POST /verify — ok=False
+2026-01-16 08:33:25,848 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:33:25,848 - src.router - INFO - POST /sign
+2026-01-16 08:33:25,848 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:33:25,848 - src.router - INFO - POST /sign — успех
+2026-01-16 08:33:25,849 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:33:25,849 - src.router - INFO - POST /verify
+2026-01-16 08:33:25,849 - src.validators.validators - WARNING - Получено пустое или невалидное сообщение
+2026-01-16 08:33:25,849 - src.handlers.handlers - WARNING - Ошибка приложения: invalid_msg
+2026-01-16 08:33:25,850 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:33:25,851 - src.router - INFO - POST /sign
+2026-01-16 08:33:25,851 - src.validators.validators - WARNING - Получено пустое или невалидное сообщение
+2026-01-16 08:33:25,851 - src.handlers.handlers - WARNING - Ошибка приложения: invalid_msg
+2026-01-16 08:33:25,852 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:33:25,852 - src.router - INFO - POST /verify
+2026-01-16 08:33:25,852 - src.validators.validators - WARNING - Получено пустое или невалидное сообщение
+2026-01-16 08:33:25,852 - src.handlers.handlers - WARNING - Ошибка приложения: invalid_msg
+2026-01-16 08:33:25,853 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:33:25,853 - src.router - INFO - POST /sign
+2026-01-16 08:33:25,853 - src.validators.validators - WARNING - Получено пустое или невалидное сообщение
+2026-01-16 08:33:25,853 - src.handlers.handlers - WARNING - Ошибка приложения: invalid_msg
+2026-01-16 08:33:25,855 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:33:25,855 - src.router - INFO - POST /verify
+2026-01-16 08:33:25,855 - src.validators.validators - WARNING - Невалидный формат подписи, длина: 3
+2026-01-16 08:33:25,855 - src.handlers.handlers - WARNING - Ошибка приложения: invalid_signature_format
+2026-01-16 08:33:25,857 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:33:25,857 - src.router - INFO - POST /verify
+2026-01-16 08:33:25,857 - src.validators.validators - WARNING - Невалидный формат подписи, длина: 4
+2026-01-16 08:33:25,857 - src.handlers.handlers - WARNING - Ошибка приложения: invalid_signature_format
+2026-01-16 08:33:25,858 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:33:25,859 - src.router - INFO - POST /sign
+2026-01-16 08:33:25,859 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:33:25,859 - src.router - INFO - POST /sign — успех
+2026-01-16 08:33:25,860 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:33:25,860 - src.router - INFO - POST /sign
+2026-01-16 08:33:25,860 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:33:25,860 - src.router - INFO - POST /sign — успех
+2026-01-16 08:33:25,861 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:33:25,861 - src.router - INFO - POST /sign
+2026-01-16 08:33:25,862 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:33:25,862 - src.router - INFO - POST /sign — успех
+2026-01-16 08:33:25,863 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:33:25,863 - src.router - INFO - POST /sign
+2026-01-16 08:33:25,863 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:33:25,863 - src.router - INFO - POST /sign — успех
+2026-01-16 08:33:25,866 - src.handlers.middleware - WARNING - Тело запроса слишком большое: 1048587 > 1048576
+2026-01-16 08:33:25,867 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:33:25,867 - src.router - INFO - POST /sign
+2026-01-16 08:33:25,867 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:33:25,867 - src.router - INFO - POST /sign — успех
+2026-01-16 08:33:25,868 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:33:25,869 - src.router - INFO - POST /verify
+2026-01-16 08:33:25,869 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:33:25,869 - src.hmac_service - WARNING - Подпись НЕ валидна!
+2026-01-16 08:33:25,869 - src.router - INFO - POST /verify — ok=False
+2026-01-16 08:33:25,870 - src.handlers.middleware - WARNING - Неверный Content-Type: text/plain
+2026-01-16 08:34:41,590 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:34:41,590 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:34:41,590 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:34:41,591 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:34:41,591 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:34:41,591 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:34:41,592 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:34:41,592 - src.hmac_service - INFO - Подпись валидна
+2026-01-16 08:34:41,592 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:34:41,592 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:34:41,592 - src.hmac_service - WARNING - Подпись НЕ валидна!
+2026-01-16 08:34:41,592 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:34:41,592 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:34:41,592 - src.hmac_service - WARNING - Подпись НЕ валидна!
+2026-01-16 08:34:41,592 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:34:41,593 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:34:41,593 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:34:41,593 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:34:41,593 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:34:41,593 - src.hmac_service - INFO - Подпись валидна
+2026-01-16 08:34:41,600 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:34:41,600 - src.router - INFO - POST /sign
+2026-01-16 08:34:41,600 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:34:41,600 - src.router - INFO - POST /sign — успех
+2026-01-16 08:34:41,602 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:34:41,602 - src.router - INFO - POST /sign
+2026-01-16 08:34:41,602 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:34:41,602 - src.router - INFO - POST /sign — успех
+2026-01-16 08:34:41,603 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:34:41,604 - src.router - INFO - POST /verify
+2026-01-16 08:34:41,604 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:34:41,604 - src.hmac_service - INFO - Подпись валидна
+2026-01-16 08:34:41,604 - src.router - INFO - POST /verify — ok=True
+2026-01-16 08:34:41,605 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:34:41,605 - src.router - INFO - POST /sign
+2026-01-16 08:34:41,605 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:34:41,605 - src.router - INFO - POST /sign — успех
+2026-01-16 08:34:41,607 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:34:41,607 - src.router - INFO - POST /verify
+2026-01-16 08:34:41,607 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:34:41,607 - src.hmac_service - INFO - Подпись валидна
+2026-01-16 08:34:41,607 - src.router - INFO - POST /verify — ok=True
+2026-01-16 08:34:41,609 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:34:41,609 - src.router - INFO - POST /sign
+2026-01-16 08:34:41,609 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:34:41,609 - src.router - INFO - POST /sign — успех
+2026-01-16 08:34:41,610 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:34:41,610 - src.router - INFO - POST /verify
+2026-01-16 08:34:41,610 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:34:41,610 - src.hmac_service - WARNING - Подпись НЕ валидна!
+2026-01-16 08:34:41,610 - src.router - INFO - POST /verify — ok=False
+2026-01-16 08:34:41,612 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:34:41,612 - src.router - INFO - POST /sign
+2026-01-16 08:34:41,612 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:34:41,612 - src.router - INFO - POST /sign — успех
+2026-01-16 08:34:41,613 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:34:41,613 - src.router - INFO - POST /verify
+2026-01-16 08:34:41,613 - src.validators.validators - WARNING - Получено пустое или невалидное сообщение
+2026-01-16 08:34:41,613 - src.handlers.handlers - WARNING - Ошибка приложения: invalid_msg
+2026-01-16 08:34:41,614 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:34:41,614 - src.router - INFO - POST /sign
+2026-01-16 08:34:41,614 - src.validators.validators - WARNING - Получено пустое или невалидное сообщение
+2026-01-16 08:34:41,614 - src.handlers.handlers - WARNING - Ошибка приложения: invalid_msg
+2026-01-16 08:34:41,616 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:34:41,616 - src.router - INFO - POST /verify
+2026-01-16 08:34:41,616 - src.validators.validators - WARNING - Получено пустое или невалидное сообщение
+2026-01-16 08:34:41,616 - src.handlers.handlers - WARNING - Ошибка приложения: invalid_msg
+2026-01-16 08:34:41,617 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:34:41,617 - src.router - INFO - POST /sign
+2026-01-16 08:34:41,617 - src.validators.validators - WARNING - Получено пустое или невалидное сообщение
+2026-01-16 08:34:41,618 - src.handlers.handlers - WARNING - Ошибка приложения: invalid_msg
+2026-01-16 08:34:41,621 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:34:41,621 - src.router - INFO - POST /verify
+2026-01-16 08:34:41,621 - src.validators.validators - WARNING - Невалидный формат подписи, длина: 3
+2026-01-16 08:34:41,621 - src.handlers.handlers - WARNING - Ошибка приложения: invalid_signature_format
+2026-01-16 08:34:41,622 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:34:41,622 - src.router - INFO - POST /verify
+2026-01-16 08:34:41,622 - src.validators.validators - WARNING - Невалидный формат подписи, длина: 4
+2026-01-16 08:34:41,622 - src.handlers.handlers - WARNING - Ошибка приложения: invalid_signature_format
+2026-01-16 08:34:41,624 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:34:41,624 - src.router - INFO - POST /sign
+2026-01-16 08:34:41,624 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:34:41,624 - src.router - INFO - POST /sign — успех
+2026-01-16 08:34:41,625 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:34:41,625 - src.router - INFO - POST /sign
+2026-01-16 08:34:41,625 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:34:41,625 - src.router - INFO - POST /sign — успех
+2026-01-16 08:34:41,627 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:34:41,627 - src.router - INFO - POST /sign
+2026-01-16 08:34:41,627 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:34:41,627 - src.router - INFO - POST /sign — успех
+2026-01-16 08:34:41,628 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:34:41,628 - src.router - INFO - POST /sign
+2026-01-16 08:34:41,628 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:34:41,628 - src.router - INFO - POST /sign — успех
+2026-01-16 08:34:41,631 - src.handlers.middleware - WARNING - Тело запроса слишком большое: 1048587 > 1048576
+2026-01-16 08:34:41,632 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:34:41,632 - src.router - INFO - POST /sign
+2026-01-16 08:34:41,632 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:34:41,632 - src.router - INFO - POST /sign — успех
+2026-01-16 08:34:41,634 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:34:41,634 - src.router - INFO - POST /verify
+2026-01-16 08:34:41,634 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:34:41,634 - src.hmac_service - WARNING - Подпись НЕ валидна!
+2026-01-16 08:34:41,634 - src.router - INFO - POST /verify — ok=False
+2026-01-16 08:34:41,635 - src.handlers.middleware - WARNING - Неверный Content-Type: text/plain
+2026-01-16 08:34:59,115 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:34:59,115 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:34:59,115 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:34:59,115 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:34:59,115 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:34:59,116 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:34:59,116 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:34:59,116 - src.hmac_service - INFO - Подпись валидна
+2026-01-16 08:34:59,116 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:34:59,116 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:34:59,116 - src.hmac_service - WARNING - Подпись НЕ валидна!
+2026-01-16 08:34:59,117 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:34:59,117 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:34:59,117 - src.hmac_service - WARNING - Подпись НЕ валидна!
+2026-01-16 08:34:59,117 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:34:59,117 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:34:59,118 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:34:59,118 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:34:59,119 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:34:59,119 - src.hmac_service - INFO - Подпись валидна
+2026-01-16 08:34:59,136 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:34:59,136 - src.router - INFO - POST /sign
+2026-01-16 08:34:59,136 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:34:59,136 - src.router - INFO - POST /sign — успех
+2026-01-16 08:34:59,138 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:34:59,138 - src.router - INFO - POST /sign
+2026-01-16 08:34:59,138 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:34:59,138 - src.router - INFO - POST /sign — успех
+2026-01-16 08:34:59,139 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:34:59,139 - src.router - INFO - POST /verify
+2026-01-16 08:34:59,139 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:34:59,139 - src.hmac_service - INFO - Подпись валидна
+2026-01-16 08:34:59,139 - src.router - INFO - POST /verify — ok=True
+2026-01-16 08:34:59,141 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:34:59,141 - src.router - INFO - POST /sign
+2026-01-16 08:34:59,141 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:34:59,141 - src.router - INFO - POST /sign — успех
+2026-01-16 08:34:59,143 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:34:59,143 - src.router - INFO - POST /verify
+2026-01-16 08:34:59,143 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:34:59,143 - src.hmac_service - INFO - Подпись валидна
+2026-01-16 08:34:59,143 - src.router - INFO - POST /verify — ok=True
+2026-01-16 08:34:59,145 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:34:59,145 - src.router - INFO - POST /sign
+2026-01-16 08:34:59,145 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:34:59,145 - src.router - INFO - POST /sign — успех
+2026-01-16 08:34:59,146 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:34:59,146 - src.router - INFO - POST /verify
+2026-01-16 08:34:59,146 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:34:59,146 - src.hmac_service - WARNING - Подпись НЕ валидна!
+2026-01-16 08:34:59,146 - src.router - INFO - POST /verify — ok=False
+2026-01-16 08:34:59,147 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:34:59,147 - src.router - INFO - POST /sign
+2026-01-16 08:34:59,147 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:34:59,147 - src.router - INFO - POST /sign — успех
+2026-01-16 08:34:59,149 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:34:59,149 - src.router - INFO - POST /verify
+2026-01-16 08:34:59,149 - src.validators.validators - WARNING - Получено пустое или невалидное сообщение
+2026-01-16 08:34:59,149 - src.handlers.handlers - WARNING - Ошибка приложения: invalid_msg
+2026-01-16 08:34:59,150 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:34:59,150 - src.router - INFO - POST /sign
+2026-01-16 08:34:59,150 - src.validators.validators - WARNING - Получено пустое или невалидное сообщение
+2026-01-16 08:34:59,150 - src.handlers.handlers - WARNING - Ошибка приложения: invalid_msg
+2026-01-16 08:34:59,152 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:34:59,152 - src.router - INFO - POST /verify
+2026-01-16 08:34:59,152 - src.validators.validators - WARNING - Получено пустое или невалидное сообщение
+2026-01-16 08:34:59,152 - src.handlers.handlers - WARNING - Ошибка приложения: invalid_msg
+2026-01-16 08:34:59,153 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:34:59,153 - src.router - INFO - POST /sign
+2026-01-16 08:34:59,153 - src.validators.validators - WARNING - Получено пустое или невалидное сообщение
+2026-01-16 08:34:59,153 - src.handlers.handlers - WARNING - Ошибка приложения: invalid_msg
+2026-01-16 08:34:59,156 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:34:59,156 - src.router - INFO - POST /verify
+2026-01-16 08:34:59,156 - src.validators.validators - WARNING - Невалидный формат подписи, длина: 3
+2026-01-16 08:34:59,156 - src.handlers.handlers - WARNING - Ошибка приложения: invalid_signature_format
+2026-01-16 08:34:59,158 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:34:59,158 - src.router - INFO - POST /verify
+2026-01-16 08:34:59,158 - src.validators.validators - WARNING - Невалидный формат подписи, длина: 4
+2026-01-16 08:34:59,158 - src.handlers.handlers - WARNING - Ошибка приложения: invalid_signature_format
+2026-01-16 08:34:59,160 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:34:59,160 - src.router - INFO - POST /sign
+2026-01-16 08:34:59,160 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:34:59,160 - src.router - INFO - POST /sign — успех
+2026-01-16 08:34:59,161 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:34:59,161 - src.router - INFO - POST /sign
+2026-01-16 08:34:59,161 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:34:59,161 - src.router - INFO - POST /sign — успех
+2026-01-16 08:34:59,163 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:34:59,163 - src.router - INFO - POST /sign
+2026-01-16 08:34:59,163 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:34:59,163 - src.router - INFO - POST /sign — успех
+2026-01-16 08:34:59,164 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:34:59,164 - src.router - INFO - POST /sign
+2026-01-16 08:34:59,164 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:34:59,164 - src.router - INFO - POST /sign — успех
+2026-01-16 08:34:59,167 - src.handlers.middleware - WARNING - Тело запроса слишком большое: 1048587 > 1048576
+2026-01-16 08:34:59,169 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:34:59,169 - src.router - INFO - POST /sign
+2026-01-16 08:34:59,169 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:34:59,169 - src.router - INFO - POST /sign — успех
+2026-01-16 08:34:59,170 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:34:59,170 - src.router - INFO - POST /verify
+2026-01-16 08:34:59,170 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:34:59,170 - src.hmac_service - WARNING - Подпись НЕ валидна!
+2026-01-16 08:34:59,170 - src.router - INFO - POST /verify — ok=False
+2026-01-16 08:34:59,171 - src.handlers.middleware - WARNING - Неверный Content-Type: text/plain
+2026-01-16 08:36:01,110 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:36:01,110 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:01,110 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:01,111 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:01,111 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:01,111 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:01,111 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:01,111 - src.hmac_service - INFO - Подпись валидна
+2026-01-16 08:36:01,111 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:01,111 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:01,111 - src.hmac_service - WARNING - Подпись НЕ валидна!
+2026-01-16 08:36:01,112 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:01,112 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:01,112 - src.hmac_service - WARNING - Подпись НЕ валидна!
+2026-01-16 08:36:01,112 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:01,112 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:01,113 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:01,113 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:01,113 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:01,113 - src.hmac_service - INFO - Подпись валидна
+2026-01-16 08:36:01,132 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:36:01,132 - src.router - INFO - POST /sign
+2026-01-16 08:36:01,132 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:01,132 - src.router - INFO - POST /sign — успех
+2026-01-16 08:36:01,134 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:36:01,134 - src.router - INFO - POST /sign
+2026-01-16 08:36:01,134 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:01,134 - src.router - INFO - POST /sign — успех
+2026-01-16 08:36:01,136 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:36:01,136 - src.router - INFO - POST /verify
+2026-01-16 08:36:01,136 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:01,136 - src.hmac_service - INFO - Подпись валидна
+2026-01-16 08:36:01,136 - src.router - INFO - POST /verify — ok=True
+2026-01-16 08:36:01,137 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:36:01,138 - src.router - INFO - POST /sign
+2026-01-16 08:36:01,138 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:01,138 - src.router - INFO - POST /sign — успех
+2026-01-16 08:36:01,139 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:36:01,139 - src.router - INFO - POST /verify
+2026-01-16 08:36:01,139 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:01,139 - src.hmac_service - INFO - Подпись валидна
+2026-01-16 08:36:01,139 - src.router - INFO - POST /verify — ok=True
+2026-01-16 08:36:01,141 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:36:01,141 - src.router - INFO - POST /sign
+2026-01-16 08:36:01,141 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:01,141 - src.router - INFO - POST /sign — успех
+2026-01-16 08:36:01,142 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:36:01,142 - src.router - INFO - POST /verify
+2026-01-16 08:36:01,142 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:01,142 - src.hmac_service - WARNING - Подпись НЕ валидна!
+2026-01-16 08:36:01,142 - src.router - INFO - POST /verify — ok=False
+2026-01-16 08:36:01,144 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:36:01,144 - src.router - INFO - POST /sign
+2026-01-16 08:36:01,144 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:01,144 - src.router - INFO - POST /sign — успех
+2026-01-16 08:36:01,145 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:36:01,145 - src.router - INFO - POST /verify
+2026-01-16 08:36:01,145 - src.validators.validators - WARNING - Получено пустое или невалидное сообщение
+2026-01-16 08:36:01,145 - src.handlers.handlers - WARNING - Ошибка приложения: invalid_msg
+2026-01-16 08:36:01,147 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:36:01,147 - src.router - INFO - POST /sign
+2026-01-16 08:36:01,147 - src.validators.validators - WARNING - Получено пустое или невалидное сообщение
+2026-01-16 08:36:01,147 - src.handlers.handlers - WARNING - Ошибка приложения: invalid_msg
+2026-01-16 08:36:01,149 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:36:01,149 - src.router - INFO - POST /verify
+2026-01-16 08:36:01,149 - src.validators.validators - WARNING - Получено пустое или невалидное сообщение
+2026-01-16 08:36:01,149 - src.handlers.handlers - WARNING - Ошибка приложения: invalid_msg
+2026-01-16 08:36:01,150 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:36:01,150 - src.router - INFO - POST /sign
+2026-01-16 08:36:01,150 - src.validators.validators - WARNING - Получено пустое или невалидное сообщение
+2026-01-16 08:36:01,150 - src.handlers.handlers - WARNING - Ошибка приложения: invalid_msg
+2026-01-16 08:36:01,153 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:36:01,153 - src.router - INFO - POST /verify
+2026-01-16 08:36:01,153 - src.validators.validators - WARNING - Невалидный формат подписи, длина: 3
+2026-01-16 08:36:01,153 - src.handlers.handlers - WARNING - Ошибка приложения: invalid_signature_format
+2026-01-16 08:36:01,155 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:36:01,155 - src.router - INFO - POST /verify
+2026-01-16 08:36:01,155 - src.validators.validators - WARNING - Невалидный формат подписи, длина: 4
+2026-01-16 08:36:01,155 - src.handlers.handlers - WARNING - Ошибка приложения: invalid_signature_format
+2026-01-16 08:36:01,157 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:36:01,157 - src.router - INFO - POST /sign
+2026-01-16 08:36:01,157 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:01,157 - src.router - INFO - POST /sign — успех
+2026-01-16 08:36:01,158 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:36:01,158 - src.router - INFO - POST /sign
+2026-01-16 08:36:01,158 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:01,158 - src.router - INFO - POST /sign — успех
+2026-01-16 08:36:01,160 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:36:01,160 - src.router - INFO - POST /sign
+2026-01-16 08:36:01,160 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:01,160 - src.router - INFO - POST /sign — успех
+2026-01-16 08:36:01,161 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:36:01,161 - src.router - INFO - POST /sign
+2026-01-16 08:36:01,161 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:01,161 - src.router - INFO - POST /sign — успех
+2026-01-16 08:36:01,165 - src.handlers.middleware - WARNING - Тело запроса слишком большое: 1048587 > 1048576
+2026-01-16 08:36:01,166 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:36:01,166 - src.router - INFO - POST /sign
+2026-01-16 08:36:01,166 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:01,166 - src.router - INFO - POST /sign — успех
+2026-01-16 08:36:01,167 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:36:01,167 - src.router - INFO - POST /verify
+2026-01-16 08:36:01,167 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:01,167 - src.hmac_service - WARNING - Подпись НЕ валидна!
+2026-01-16 08:36:01,167 - src.router - INFO - POST /verify — ok=False
+2026-01-16 08:36:01,168 - src.handlers.middleware - WARNING - Неверный Content-Type: text/plain
+2026-01-16 08:36:26,468 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:36:26,468 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:26,468 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:26,469 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:26,469 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:26,469 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:26,469 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:26,469 - src.hmac_service - INFO - Подпись валидна
+2026-01-16 08:36:26,470 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:26,470 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:26,470 - src.hmac_service - WARNING - Подпись НЕ валидна!
+2026-01-16 08:36:26,470 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:26,470 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:26,470 - src.hmac_service - WARNING - Подпись НЕ валидна!
+2026-01-16 08:36:26,470 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:26,471 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:26,471 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:26,471 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:26,471 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:26,471 - src.hmac_service - INFO - Подпись валидна
+2026-01-16 08:36:26,489 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:36:26,489 - src.router - INFO - POST /sign
+2026-01-16 08:36:26,489 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:26,489 - src.router - INFO - POST /sign — успех
+2026-01-16 08:36:26,491 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:36:26,491 - src.router - INFO - POST /sign
+2026-01-16 08:36:26,491 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:26,491 - src.router - INFO - POST /sign — успех
+2026-01-16 08:36:26,492 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:36:26,492 - src.router - INFO - POST /verify
+2026-01-16 08:36:26,493 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:26,493 - src.hmac_service - INFO - Подпись валидна
+2026-01-16 08:36:26,493 - src.router - INFO - POST /verify — ok=True
+2026-01-16 08:36:26,494 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:36:26,494 - src.router - INFO - POST /sign
+2026-01-16 08:36:26,494 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:26,494 - src.router - INFO - POST /sign — успех
+2026-01-16 08:36:26,496 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:36:26,496 - src.router - INFO - POST /verify
+2026-01-16 08:36:26,496 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:26,496 - src.hmac_service - INFO - Подпись валидна
+2026-01-16 08:36:26,496 - src.router - INFO - POST /verify — ok=True
+2026-01-16 08:36:26,497 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:36:26,498 - src.router - INFO - POST /sign
+2026-01-16 08:36:26,498 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:26,498 - src.router - INFO - POST /sign — успех
+2026-01-16 08:36:26,499 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:36:26,499 - src.router - INFO - POST /verify
+2026-01-16 08:36:26,499 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:26,499 - src.hmac_service - WARNING - Подпись НЕ валидна!
+2026-01-16 08:36:26,499 - src.router - INFO - POST /verify — ok=False
+2026-01-16 08:36:26,500 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:36:26,501 - src.router - INFO - POST /sign
+2026-01-16 08:36:26,501 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:26,501 - src.router - INFO - POST /sign — успех
+2026-01-16 08:36:26,502 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:36:26,502 - src.router - INFO - POST /verify
+2026-01-16 08:36:26,502 - src.validators.validators - WARNING - Получено пустое или невалидное сообщение
+2026-01-16 08:36:26,502 - src.handlers.handlers - WARNING - Ошибка приложения: invalid_msg
+2026-01-16 08:36:26,503 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:36:26,503 - src.router - INFO - POST /sign
+2026-01-16 08:36:26,503 - src.validators.validators - WARNING - Получено пустое или невалидное сообщение
+2026-01-16 08:36:26,503 - src.handlers.handlers - WARNING - Ошибка приложения: invalid_msg
+2026-01-16 08:36:26,505 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:36:26,505 - src.router - INFO - POST /verify
+2026-01-16 08:36:26,505 - src.validators.validators - WARNING - Получено пустое или невалидное сообщение
+2026-01-16 08:36:26,505 - src.handlers.handlers - WARNING - Ошибка приложения: invalid_msg
+2026-01-16 08:36:26,506 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:36:26,506 - src.router - INFO - POST /sign
+2026-01-16 08:36:26,506 - src.validators.validators - WARNING - Получено пустое или невалидное сообщение
+2026-01-16 08:36:26,506 - src.handlers.handlers - WARNING - Ошибка приложения: invalid_msg
+2026-01-16 08:36:26,509 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:36:26,509 - src.router - INFO - POST /verify
+2026-01-16 08:36:26,509 - src.validators.validators - WARNING - Невалидный формат подписи, длина: 3
+2026-01-16 08:36:26,510 - src.handlers.handlers - WARNING - Ошибка приложения: invalid_signature_format
+2026-01-16 08:36:26,511 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:36:26,511 - src.router - INFO - POST /verify
+2026-01-16 08:36:26,511 - src.validators.validators - WARNING - Невалидный формат подписи, длина: 4
+2026-01-16 08:36:26,511 - src.handlers.handlers - WARNING - Ошибка приложения: invalid_signature_format
+2026-01-16 08:36:26,513 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:36:26,513 - src.router - INFO - POST /sign
+2026-01-16 08:36:26,513 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:26,513 - src.router - INFO - POST /sign — успех
+2026-01-16 08:36:26,514 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:36:26,514 - src.router - INFO - POST /sign
+2026-01-16 08:36:26,514 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:26,514 - src.router - INFO - POST /sign — успех
+2026-01-16 08:36:26,516 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:36:26,516 - src.router - INFO - POST /sign
+2026-01-16 08:36:26,516 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:26,516 - src.router - INFO - POST /sign — успех
+2026-01-16 08:36:26,517 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:36:26,517 - src.router - INFO - POST /sign
+2026-01-16 08:36:26,517 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:26,517 - src.router - INFO - POST /sign — успех
+2026-01-16 08:36:26,520 - src.handlers.middleware - WARNING - Тело запроса слишком большое: 1048587 > 1048576
+2026-01-16 08:36:26,521 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:36:26,521 - src.router - INFO - POST /sign
+2026-01-16 08:36:26,521 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:26,521 - src.router - INFO - POST /sign — успех
+2026-01-16 08:36:26,522 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:36:26,522 - src.router - INFO - POST /verify
+2026-01-16 08:36:26,523 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:26,523 - src.hmac_service - WARNING - Подпись НЕ валидна!
+2026-01-16 08:36:26,523 - src.router - INFO - POST /verify — ok=False
+2026-01-16 08:36:26,524 - src.handlers.middleware - WARNING - Неверный Content-Type: text/plain
+2026-01-16 08:36:35,996 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:36:35,996 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:35,996 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:35,997 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:35,997 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:35,997 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:35,997 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:35,997 - src.hmac_service - INFO - Подпись валидна
+2026-01-16 08:36:35,997 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:35,997 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:35,997 - src.hmac_service - WARNING - Подпись НЕ валидна!
+2026-01-16 08:36:35,998 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:35,998 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:35,998 - src.hmac_service - WARNING - Подпись НЕ валидна!
+2026-01-16 08:36:35,998 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:35,998 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:35,998 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:35,999 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:35,999 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:35,999 - src.hmac_service - INFO - Подпись валидна
+2026-01-16 08:36:36,016 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:36:36,016 - src.router - INFO - POST /sign
+2026-01-16 08:36:36,016 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:36,016 - src.router - INFO - POST /sign — успех
+2026-01-16 08:36:36,018 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:36:36,019 - src.router - INFO - POST /sign
+2026-01-16 08:36:36,019 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:36,019 - src.router - INFO - POST /sign — успех
+2026-01-16 08:36:36,020 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:36:36,020 - src.router - INFO - POST /verify
+2026-01-16 08:36:36,020 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:36,020 - src.hmac_service - INFO - Подпись валидна
+2026-01-16 08:36:36,020 - src.router - INFO - POST /verify — ok=True
+2026-01-16 08:36:36,021 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:36:36,021 - src.router - INFO - POST /sign
+2026-01-16 08:36:36,021 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:36,021 - src.router - INFO - POST /sign — успех
+2026-01-16 08:36:36,023 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:36:36,023 - src.router - INFO - POST /verify
+2026-01-16 08:36:36,023 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:36,023 - src.hmac_service - INFO - Подпись валидна
+2026-01-16 08:36:36,023 - src.router - INFO - POST /verify — ok=True
+2026-01-16 08:36:36,024 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:36:36,024 - src.router - INFO - POST /sign
+2026-01-16 08:36:36,024 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:36,024 - src.router - INFO - POST /sign — успех
+2026-01-16 08:36:36,026 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:36:36,026 - src.router - INFO - POST /verify
+2026-01-16 08:36:36,026 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:36,026 - src.hmac_service - WARNING - Подпись НЕ валидна!
+2026-01-16 08:36:36,026 - src.router - INFO - POST /verify — ok=False
+2026-01-16 08:36:36,027 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:36:36,027 - src.router - INFO - POST /sign
+2026-01-16 08:36:36,027 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:36,027 - src.router - INFO - POST /sign — успех
+2026-01-16 08:36:36,028 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:36:36,029 - src.router - INFO - POST /verify
+2026-01-16 08:36:36,029 - src.validators.validators - WARNING - Получено пустое или невалидное сообщение
+2026-01-16 08:36:36,029 - src.handlers.handlers - WARNING - Ошибка приложения: invalid_msg
+2026-01-16 08:36:36,030 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:36:36,030 - src.router - INFO - POST /sign
+2026-01-16 08:36:36,030 - src.validators.validators - WARNING - Получено пустое или невалидное сообщение
+2026-01-16 08:36:36,030 - src.handlers.handlers - WARNING - Ошибка приложения: invalid_msg
+2026-01-16 08:36:36,031 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:36:36,031 - src.router - INFO - POST /verify
+2026-01-16 08:36:36,031 - src.validators.validators - WARNING - Получено пустое или невалидное сообщение
+2026-01-16 08:36:36,031 - src.handlers.handlers - WARNING - Ошибка приложения: invalid_msg
+2026-01-16 08:36:36,032 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:36:36,032 - src.router - INFO - POST /sign
+2026-01-16 08:36:36,032 - src.validators.validators - WARNING - Получено пустое или невалидное сообщение
+2026-01-16 08:36:36,033 - src.handlers.handlers - WARNING - Ошибка приложения: invalid_msg
+2026-01-16 08:36:36,036 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:36:36,036 - src.router - INFO - POST /verify
+2026-01-16 08:36:36,036 - src.validators.validators - WARNING - Невалидный формат подписи, длина: 3
+2026-01-16 08:36:36,036 - src.handlers.handlers - WARNING - Ошибка приложения: invalid_signature_format
+2026-01-16 08:36:36,037 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:36:36,038 - src.router - INFO - POST /verify
+2026-01-16 08:36:36,038 - src.validators.validators - WARNING - Невалидный формат подписи, длина: 4
+2026-01-16 08:36:36,038 - src.handlers.handlers - WARNING - Ошибка приложения: invalid_signature_format
+2026-01-16 08:36:36,039 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:36:36,039 - src.router - INFO - POST /sign
+2026-01-16 08:36:36,039 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:36,039 - src.router - INFO - POST /sign — успех
+2026-01-16 08:36:36,040 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:36:36,040 - src.router - INFO - POST /sign
+2026-01-16 08:36:36,040 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:36,040 - src.router - INFO - POST /sign — успех
+2026-01-16 08:36:36,042 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:36:36,042 - src.router - INFO - POST /sign
+2026-01-16 08:36:36,042 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:36,042 - src.router - INFO - POST /sign — успех
+2026-01-16 08:36:36,043 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:36:36,043 - src.router - INFO - POST /sign
+2026-01-16 08:36:36,043 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:36,044 - src.router - INFO - POST /sign — успех
+2026-01-16 08:36:36,046 - src.handlers.middleware - WARNING - Тело запроса слишком большое: 1048587 > 1048576
+2026-01-16 08:36:36,047 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:36:36,047 - src.router - INFO - POST /sign
+2026-01-16 08:36:36,047 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:36,047 - src.router - INFO - POST /sign — успех
+2026-01-16 08:36:36,048 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:36:36,049 - src.router - INFO - POST /verify
+2026-01-16 08:36:36,049 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:36:36,049 - src.hmac_service - WARNING - Подпись НЕ валидна!
+2026-01-16 08:36:36,049 - src.router - INFO - POST /verify — ok=False
+2026-01-16 08:36:36,050 - src.handlers.middleware - WARNING - Неверный Content-Type: text/plain
+2026-01-16 08:37:36,857 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:37:36,858 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:37:36,858 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:37:36,858 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:37:36,858 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:37:36,858 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:37:36,858 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:37:36,858 - src.hmac_service - INFO - Подпись валидна
+2026-01-16 08:37:36,859 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:37:36,859 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:37:36,859 - src.hmac_service - WARNING - Подпись НЕ валидна!
+2026-01-16 08:37:36,859 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:37:36,859 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:37:36,859 - src.hmac_service - WARNING - Подпись НЕ валидна!
+2026-01-16 08:37:36,860 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:37:36,860 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:37:36,860 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:37:36,860 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:37:36,860 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:37:36,861 - src.hmac_service - INFO - Подпись валидна
+2026-01-16 08:37:36,877 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:37:36,877 - src.router - INFO - POST /sign
+2026-01-16 08:37:36,877 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:37:36,878 - src.router - INFO - POST /sign — успех
+2026-01-16 08:37:36,880 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:37:36,880 - src.router - INFO - POST /sign
+2026-01-16 08:37:36,880 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:37:36,880 - src.router - INFO - POST /sign — успех
+2026-01-16 08:37:36,882 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:37:36,882 - src.router - INFO - POST /verify
+2026-01-16 08:37:36,882 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:37:36,882 - src.hmac_service - INFO - Подпись валидна
+2026-01-16 08:37:36,882 - src.router - INFO - POST /verify — ok=True
+2026-01-16 08:37:36,884 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:37:36,884 - src.router - INFO - POST /sign
+2026-01-16 08:37:36,884 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:37:36,884 - src.router - INFO - POST /sign — успех
+2026-01-16 08:37:36,885 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:37:36,885 - src.router - INFO - POST /verify
+2026-01-16 08:37:36,885 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:37:36,885 - src.hmac_service - INFO - Подпись валидна
+2026-01-16 08:37:36,885 - src.router - INFO - POST /verify — ok=True
+2026-01-16 08:37:36,887 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:37:36,887 - src.router - INFO - POST /sign
+2026-01-16 08:37:36,887 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:37:36,887 - src.router - INFO - POST /sign — успех
+2026-01-16 08:37:36,888 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:37:36,888 - src.router - INFO - POST /verify
+2026-01-16 08:37:36,888 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:37:36,889 - src.hmac_service - WARNING - Подпись НЕ валидна!
+2026-01-16 08:37:36,889 - src.router - INFO - POST /verify — ok=False
+2026-01-16 08:37:36,890 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:37:36,890 - src.router - INFO - POST /sign
+2026-01-16 08:37:36,890 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:37:36,890 - src.router - INFO - POST /sign — успех
+2026-01-16 08:37:36,891 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:37:36,891 - src.router - INFO - POST /verify
+2026-01-16 08:37:36,891 - src.validators.validators - WARNING - Получено пустое или невалидное сообщение
+2026-01-16 08:37:36,892 - src.handlers.handlers - WARNING - Ошибка приложения: invalid_msg
+2026-01-16 08:37:36,893 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:37:36,893 - src.router - INFO - POST /sign
+2026-01-16 08:37:36,893 - src.validators.validators - WARNING - Получено пустое или невалидное сообщение
+2026-01-16 08:37:36,893 - src.handlers.handlers - WARNING - Ошибка приложения: invalid_msg
+2026-01-16 08:37:36,894 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:37:36,894 - src.router - INFO - POST /verify
+2026-01-16 08:37:36,894 - src.validators.validators - WARNING - Получено пустое или невалидное сообщение
+2026-01-16 08:37:36,894 - src.handlers.handlers - WARNING - Ошибка приложения: invalid_msg
+2026-01-16 08:37:36,896 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:37:36,896 - src.router - INFO - POST /sign
+2026-01-16 08:37:36,896 - src.validators.validators - WARNING - Получено пустое или невалидное сообщение
+2026-01-16 08:37:36,896 - src.handlers.handlers - WARNING - Ошибка приложения: invalid_msg
+2026-01-16 08:37:36,899 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:37:36,899 - src.router - INFO - POST /verify
+2026-01-16 08:37:36,899 - src.validators.validators - WARNING - Невалидный формат подписи, длина: 3
+2026-01-16 08:37:36,899 - src.handlers.handlers - WARNING - Ошибка приложения: invalid_signature_format
+2026-01-16 08:37:36,901 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:37:36,901 - src.router - INFO - POST /verify
+2026-01-16 08:37:36,901 - src.validators.validators - WARNING - Невалидный формат подписи, длина: 4
+2026-01-16 08:37:36,901 - src.handlers.handlers - WARNING - Ошибка приложения: invalid_signature_format
+2026-01-16 08:37:36,902 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:37:36,902 - src.router - INFO - POST /sign
+2026-01-16 08:37:36,902 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:37:36,902 - src.router - INFO - POST /sign — успех
+2026-01-16 08:37:36,903 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:37:36,904 - src.router - INFO - POST /sign
+2026-01-16 08:37:36,904 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:37:36,904 - src.router - INFO - POST /sign — успех
+2026-01-16 08:37:36,905 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:37:36,905 - src.router - INFO - POST /sign
+2026-01-16 08:37:36,906 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:37:36,906 - src.router - INFO - POST /sign — успех
+2026-01-16 08:37:36,907 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:37:36,907 - src.router - INFO - POST /sign
+2026-01-16 08:37:36,907 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:37:36,907 - src.router - INFO - POST /sign — успех
+2026-01-16 08:37:36,909 - src.handlers.middleware - WARNING - Тело запроса слишком большое: 1048587 > 1048576
+2026-01-16 08:37:36,911 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:37:36,911 - src.router - INFO - POST /sign
+2026-01-16 08:37:36,911 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:37:36,911 - src.router - INFO - POST /sign — успех
+2026-01-16 08:37:36,912 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:37:36,912 - src.router - INFO - POST /verify
+2026-01-16 08:37:36,912 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:37:36,912 - src.hmac_service - WARNING - Подпись НЕ валидна!
+2026-01-16 08:37:36,912 - src.router - INFO - POST /verify — ok=False
+2026-01-16 08:37:36,913 - src.handlers.middleware - WARNING - Неверный Content-Type: text/plain
+2026-01-16 08:37:57,805 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:37:57,806 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:37:57,806 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:37:57,806 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:37:57,806 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:37:57,807 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:37:57,807 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:37:57,807 - src.hmac_service - INFO - Подпись валидна
+2026-01-16 08:37:57,807 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:37:57,807 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:37:57,807 - src.hmac_service - WARNING - Подпись НЕ валидна!
+2026-01-16 08:37:57,807 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:37:57,807 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:37:57,807 - src.hmac_service - WARNING - Подпись НЕ валидна!
+2026-01-16 08:37:57,807 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:37:57,808 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:37:57,808 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:37:57,808 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:37:57,808 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:37:57,808 - src.hmac_service - INFO - Подпись валидна
+2026-01-16 08:37:57,830 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:37:57,830 - src.router - INFO - POST /sign
+2026-01-16 08:37:57,830 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:37:57,830 - src.router - INFO - POST /sign — успех
+2026-01-16 08:37:57,832 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:37:57,832 - src.router - INFO - POST /sign
+2026-01-16 08:37:57,832 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:37:57,832 - src.router - INFO - POST /sign — успех
+2026-01-16 08:37:57,834 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:37:57,834 - src.router - INFO - POST /verify
+2026-01-16 08:37:57,834 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:37:57,834 - src.hmac_service - INFO - Подпись валидна
+2026-01-16 08:37:57,834 - src.router - INFO - POST /verify — ok=True
+2026-01-16 08:37:57,835 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:37:57,835 - src.router - INFO - POST /sign
+2026-01-16 08:37:57,835 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:37:57,835 - src.router - INFO - POST /sign — успех
+2026-01-16 08:37:57,837 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:37:57,837 - src.router - INFO - POST /verify
+2026-01-16 08:37:57,837 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:37:57,837 - src.hmac_service - INFO - Подпись валидна
+2026-01-16 08:37:57,837 - src.router - INFO - POST /verify — ok=True
+2026-01-16 08:37:57,839 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:37:57,839 - src.router - INFO - POST /sign
+2026-01-16 08:37:57,839 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:37:57,839 - src.router - INFO - POST /sign — успех
+2026-01-16 08:37:57,840 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:37:57,840 - src.router - INFO - POST /verify
+2026-01-16 08:37:57,840 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:37:57,840 - src.hmac_service - WARNING - Подпись НЕ валидна!
+2026-01-16 08:37:57,840 - src.router - INFO - POST /verify — ok=False
+2026-01-16 08:37:57,843 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:37:57,843 - src.router - INFO - POST /sign
+2026-01-16 08:37:57,843 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:37:57,843 - src.router - INFO - POST /sign — успех
+2026-01-16 08:37:57,845 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:37:57,845 - src.router - INFO - POST /verify
+2026-01-16 08:37:57,845 - src.validators.validators - WARNING - Получено пустое или невалидное сообщение
+2026-01-16 08:37:57,845 - src.handlers.handlers - WARNING - Ошибка приложения: invalid_msg
+2026-01-16 08:37:57,846 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:37:57,846 - src.router - INFO - POST /sign
+2026-01-16 08:37:57,846 - src.validators.validators - WARNING - Получено пустое или невалидное сообщение
+2026-01-16 08:37:57,846 - src.handlers.handlers - WARNING - Ошибка приложения: invalid_msg
+2026-01-16 08:37:57,848 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:37:57,848 - src.router - INFO - POST /verify
+2026-01-16 08:37:57,848 - src.validators.validators - WARNING - Получено пустое или невалидное сообщение
+2026-01-16 08:37:57,848 - src.handlers.handlers - WARNING - Ошибка приложения: invalid_msg
+2026-01-16 08:37:57,849 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:37:57,849 - src.router - INFO - POST /sign
+2026-01-16 08:37:57,849 - src.validators.validators - WARNING - Получено пустое или невалидное сообщение
+2026-01-16 08:37:57,849 - src.handlers.handlers - WARNING - Ошибка приложения: invalid_msg
+2026-01-16 08:37:57,850 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:37:57,850 - src.router - INFO - POST /verify
+2026-01-16 08:37:57,850 - src.validators.validators - WARNING - Невалидный формат подписи, длина: 3
+2026-01-16 08:37:57,850 - src.handlers.handlers - WARNING - Ошибка приложения: invalid_signature_format
+2026-01-16 08:37:57,852 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:37:57,852 - src.router - INFO - POST /verify
+2026-01-16 08:37:57,852 - src.validators.validators - WARNING - Невалидный формат подписи, длина: 4
+2026-01-16 08:37:57,852 - src.handlers.handlers - WARNING - Ошибка приложения: invalid_signature_format
+2026-01-16 08:37:57,853 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:37:57,853 - src.router - INFO - POST /sign
+2026-01-16 08:37:57,853 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:37:57,853 - src.router - INFO - POST /sign — успех
+2026-01-16 08:37:57,855 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:37:57,855 - src.router - INFO - POST /sign
+2026-01-16 08:37:57,855 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:37:57,855 - src.router - INFO - POST /sign — успех
+2026-01-16 08:37:57,857 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:37:57,857 - src.router - INFO - POST /sign
+2026-01-16 08:37:57,857 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:37:57,857 - src.router - INFO - POST /sign — успех
+2026-01-16 08:37:57,858 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:37:57,858 - src.router - INFO - POST /sign
+2026-01-16 08:37:57,858 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:37:57,858 - src.router - INFO - POST /sign — успех
+2026-01-16 08:37:57,860 - src.handlers.middleware - WARNING - Тело запроса слишком большое: 1048587 > 1048576
+2026-01-16 08:37:57,862 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:37:57,862 - src.router - INFO - POST /sign
+2026-01-16 08:37:57,862 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:37:57,862 - src.router - INFO - POST /sign — успех
+2026-01-16 08:37:57,863 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:37:57,863 - src.router - INFO - POST /verify
+2026-01-16 08:37:57,863 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:37:57,863 - src.hmac_service - WARNING - Подпись НЕ валидна!
+2026-01-16 08:37:57,863 - src.router - INFO - POST /verify — ok=False
+2026-01-16 08:37:57,864 - src.handlers.middleware - WARNING - Неверный Content-Type: text/plain
+2026-01-16 08:38:08,454 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:38:08,454 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:38:08,454 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:38:08,455 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:38:08,455 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:38:08,455 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:38:08,455 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:38:08,455 - src.hmac_service - INFO - Подпись валидна
+2026-01-16 08:38:08,455 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:38:08,455 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:38:08,455 - src.hmac_service - WARNING - Подпись НЕ валидна!
+2026-01-16 08:38:08,456 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:38:08,456 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:38:08,456 - src.hmac_service - WARNING - Подпись НЕ валидна!
+2026-01-16 08:38:08,456 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:38:08,456 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:38:08,457 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:38:08,457 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:38:08,457 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:38:08,457 - src.hmac_service - INFO - Подпись валидна
+2026-01-16 08:38:08,463 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:38:08,464 - src.router - INFO - POST /sign
+2026-01-16 08:38:08,464 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:38:08,464 - src.router - INFO - POST /sign — успех
+2026-01-16 08:38:08,465 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:38:08,466 - src.router - INFO - POST /sign
+2026-01-16 08:38:08,466 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:38:08,466 - src.router - INFO - POST /sign — успех
+2026-01-16 08:38:08,467 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:38:08,467 - src.router - INFO - POST /verify
+2026-01-16 08:38:08,467 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:38:08,467 - src.hmac_service - INFO - Подпись валидна
+2026-01-16 08:38:08,467 - src.router - INFO - POST /verify — ok=True
+2026-01-16 08:38:08,469 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:38:08,469 - src.router - INFO - POST /sign
+2026-01-16 08:38:08,469 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:38:08,469 - src.router - INFO - POST /sign — успех
+2026-01-16 08:38:08,471 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:38:08,471 - src.router - INFO - POST /verify
+2026-01-16 08:38:08,471 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:38:08,471 - src.hmac_service - INFO - Подпись валидна
+2026-01-16 08:38:08,471 - src.router - INFO - POST /verify — ok=True
+2026-01-16 08:38:08,472 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:38:08,472 - src.router - INFO - POST /sign
+2026-01-16 08:38:08,472 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:38:08,472 - src.router - INFO - POST /sign — успех
+2026-01-16 08:38:08,474 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:38:08,474 - src.router - INFO - POST /verify
+2026-01-16 08:38:08,474 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:38:08,474 - src.hmac_service - WARNING - Подпись НЕ валидна!
+2026-01-16 08:38:08,474 - src.router - INFO - POST /verify — ok=False
+2026-01-16 08:38:08,475 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:38:08,475 - src.router - INFO - POST /sign
+2026-01-16 08:38:08,475 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:38:08,475 - src.router - INFO - POST /sign — успех
+2026-01-16 08:38:08,477 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:38:08,477 - src.router - INFO - POST /verify
+2026-01-16 08:38:08,477 - src.validators.validators - WARNING - Получено пустое или невалидное сообщение
+2026-01-16 08:38:08,477 - src.handlers.handlers - WARNING - Ошибка приложения: invalid_msg
+2026-01-16 08:38:08,478 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:38:08,478 - src.router - INFO - POST /sign
+2026-01-16 08:38:08,478 - src.validators.validators - WARNING - Получено пустое или невалидное сообщение
+2026-01-16 08:38:08,478 - src.handlers.handlers - WARNING - Ошибка приложения: invalid_msg
+2026-01-16 08:38:08,480 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:38:08,480 - src.router - INFO - POST /verify
+2026-01-16 08:38:08,480 - src.validators.validators - WARNING - Получено пустое или невалидное сообщение
+2026-01-16 08:38:08,480 - src.handlers.handlers - WARNING - Ошибка приложения: invalid_msg
+2026-01-16 08:38:08,481 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:38:08,481 - src.router - INFO - POST /sign
+2026-01-16 08:38:08,481 - src.validators.validators - WARNING - Получено пустое или невалидное сообщение
+2026-01-16 08:38:08,481 - src.handlers.handlers - WARNING - Ошибка приложения: invalid_msg
+2026-01-16 08:38:08,484 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:38:08,484 - src.router - INFO - POST /verify
+2026-01-16 08:38:08,484 - src.validators.validators - WARNING - Невалидный формат подписи, длина: 3
+2026-01-16 08:38:08,484 - src.handlers.handlers - WARNING - Ошибка приложения: invalid_signature_format
+2026-01-16 08:38:08,486 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:38:08,486 - src.router - INFO - POST /verify
+2026-01-16 08:38:08,486 - src.validators.validators - WARNING - Невалидный формат подписи, длина: 4
+2026-01-16 08:38:08,486 - src.handlers.handlers - WARNING - Ошибка приложения: invalid_signature_format
+2026-01-16 08:38:08,488 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:38:08,488 - src.router - INFO - POST /sign
+2026-01-16 08:38:08,488 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:38:08,488 - src.router - INFO - POST /sign — успех
+2026-01-16 08:38:08,489 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:38:08,489 - src.router - INFO - POST /sign
+2026-01-16 08:38:08,489 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:38:08,489 - src.router - INFO - POST /sign — успех
+2026-01-16 08:38:08,490 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:38:08,490 - src.router - INFO - POST /sign
+2026-01-16 08:38:08,491 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:38:08,491 - src.router - INFO - POST /sign — успех
+2026-01-16 08:38:08,492 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:38:08,492 - src.router - INFO - POST /sign
+2026-01-16 08:38:08,492 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:38:08,492 - src.router - INFO - POST /sign — успех
+2026-01-16 08:38:08,495 - src.handlers.middleware - WARNING - Тело запроса слишком большое: 1048587 > 1048576
+2026-01-16 08:38:08,496 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:38:08,496 - src.router - INFO - POST /sign
+2026-01-16 08:38:08,496 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:38:08,496 - src.router - INFO - POST /sign — успех
+2026-01-16 08:38:08,498 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:38:08,498 - src.router - INFO - POST /verify
+2026-01-16 08:38:08,498 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:38:08,498 - src.hmac_service - WARNING - Подпись НЕ валидна!
+2026-01-16 08:38:08,498 - src.router - INFO - POST /verify — ok=False
+2026-01-16 08:38:08,499 - src.handlers.middleware - WARNING - Неверный Content-Type: text/plain
+2026-01-16 08:38:09,990 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:38:09,991 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:38:09,991 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:38:09,991 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:38:09,991 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:38:09,991 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:38:09,992 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:38:09,992 - src.hmac_service - INFO - Подпись валидна
+2026-01-16 08:38:09,992 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:38:09,992 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:38:09,992 - src.hmac_service - WARNING - Подпись НЕ валидна!
+2026-01-16 08:38:09,992 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:38:09,992 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:38:09,992 - src.hmac_service - WARNING - Подпись НЕ валидна!
+2026-01-16 08:38:09,993 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:38:09,994 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:38:09,994 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:38:09,994 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:38:09,995 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:38:09,995 - src.hmac_service - INFO - Подпись валидна
+2026-01-16 08:38:10,000 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:38:10,001 - src.router - INFO - POST /sign
+2026-01-16 08:38:10,001 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:38:10,001 - src.router - INFO - POST /sign — успех
+2026-01-16 08:38:10,003 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:38:10,003 - src.router - INFO - POST /sign
+2026-01-16 08:38:10,003 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:38:10,003 - src.router - INFO - POST /sign — успех
+2026-01-16 08:38:10,004 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:38:10,004 - src.router - INFO - POST /verify
+2026-01-16 08:38:10,004 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:38:10,004 - src.hmac_service - INFO - Подпись валидна
+2026-01-16 08:38:10,004 - src.router - INFO - POST /verify — ok=True
+2026-01-16 08:38:10,006 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:38:10,006 - src.router - INFO - POST /sign
+2026-01-16 08:38:10,006 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:38:10,006 - src.router - INFO - POST /sign — успех
+2026-01-16 08:38:10,007 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:38:10,008 - src.router - INFO - POST /verify
+2026-01-16 08:38:10,008 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:38:10,008 - src.hmac_service - INFO - Подпись валидна
+2026-01-16 08:38:10,008 - src.router - INFO - POST /verify — ok=True
+2026-01-16 08:38:10,009 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:38:10,010 - src.router - INFO - POST /sign
+2026-01-16 08:38:10,010 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:38:10,010 - src.router - INFO - POST /sign — успех
+2026-01-16 08:38:10,011 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:38:10,011 - src.router - INFO - POST /verify
+2026-01-16 08:38:10,011 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:38:10,011 - src.hmac_service - WARNING - Подпись НЕ валидна!
+2026-01-16 08:38:10,011 - src.router - INFO - POST /verify — ok=False
+2026-01-16 08:38:10,012 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:38:10,012 - src.router - INFO - POST /sign
+2026-01-16 08:38:10,012 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:38:10,012 - src.router - INFO - POST /sign — успех
+2026-01-16 08:38:10,014 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:38:10,014 - src.router - INFO - POST /verify
+2026-01-16 08:38:10,014 - src.validators.validators - WARNING - Получено пустое или невалидное сообщение
+2026-01-16 08:38:10,014 - src.handlers.handlers - WARNING - Ошибка приложения: invalid_msg
+2026-01-16 08:38:10,015 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:38:10,015 - src.router - INFO - POST /sign
+2026-01-16 08:38:10,015 - src.validators.validators - WARNING - Получено пустое или невалидное сообщение
+2026-01-16 08:38:10,015 - src.handlers.handlers - WARNING - Ошибка приложения: invalid_msg
+2026-01-16 08:38:10,017 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:38:10,017 - src.router - INFO - POST /verify
+2026-01-16 08:38:10,017 - src.validators.validators - WARNING - Получено пустое или невалидное сообщение
+2026-01-16 08:38:10,017 - src.handlers.handlers - WARNING - Ошибка приложения: invalid_msg
+2026-01-16 08:38:10,018 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:38:10,018 - src.router - INFO - POST /sign
+2026-01-16 08:38:10,018 - src.validators.validators - WARNING - Получено пустое или невалидное сообщение
+2026-01-16 08:38:10,018 - src.handlers.handlers - WARNING - Ошибка приложения: invalid_msg
+2026-01-16 08:38:10,021 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:38:10,021 - src.router - INFO - POST /verify
+2026-01-16 08:38:10,021 - src.validators.validators - WARNING - Невалидный формат подписи, длина: 3
+2026-01-16 08:38:10,021 - src.handlers.handlers - WARNING - Ошибка приложения: invalid_signature_format
+2026-01-16 08:38:10,023 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:38:10,023 - src.router - INFO - POST /verify
+2026-01-16 08:38:10,023 - src.validators.validators - WARNING - Невалидный формат подписи, длина: 4
+2026-01-16 08:38:10,023 - src.handlers.handlers - WARNING - Ошибка приложения: invalid_signature_format
+2026-01-16 08:38:10,024 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:38:10,024 - src.router - INFO - POST /sign
+2026-01-16 08:38:10,024 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:38:10,024 - src.router - INFO - POST /sign — успех
+2026-01-16 08:38:10,026 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:38:10,026 - src.router - INFO - POST /sign
+2026-01-16 08:38:10,026 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:38:10,026 - src.router - INFO - POST /sign — успех
+2026-01-16 08:38:10,027 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:38:10,028 - src.router - INFO - POST /sign
+2026-01-16 08:38:10,028 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:38:10,028 - src.router - INFO - POST /sign — успех
+2026-01-16 08:38:10,029 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:38:10,029 - src.router - INFO - POST /sign
+2026-01-16 08:38:10,029 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:38:10,029 - src.router - INFO - POST /sign — успех
+2026-01-16 08:38:10,032 - src.handlers.middleware - WARNING - Тело запроса слишком большое: 1048587 > 1048576
+2026-01-16 08:38:10,033 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:38:10,033 - src.router - INFO - POST /sign
+2026-01-16 08:38:10,033 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:38:10,033 - src.router - INFO - POST /sign — успех
+2026-01-16 08:38:10,034 - src.hmac_service - INFO - HMACSigner инициализирован
+2026-01-16 08:38:10,034 - src.router - INFO - POST /verify
+2026-01-16 08:38:10,034 - src.hmac_service - INFO - Сообщение успешно подписано
+2026-01-16 08:38:10,034 - src.hmac_service - WARNING - Подпись НЕ валидна!
+2026-01-16 08:38:10,034 - src.router - INFO - POST /verify — ok=False
+2026-01-16 08:38:10,036 - src.handlers.middleware - WARNING - Неверный Content-Type: text/plain
