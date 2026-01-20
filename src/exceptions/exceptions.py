@@ -12,5 +12,3 @@ class AppError(Exception):
 
 class ConfigError(Exception):
     """Исключение для неверного конфига."""
-
-    pass

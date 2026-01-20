@@ -13,12 +13,12 @@ NOT_BASE_64_SECRET = 'NOT_BASE64!!!'
 
 def test_load_settings_ok(config_path):
     """Проверка, что конфиг корректно загружается."""
-    s = load_settings(config_path)
-    assert isinstance(s, Settings), SETTINGS_HAVING_ERROR
+    settings = load_settings(config_path)
+    assert isinstance(settings, Settings), SETTINGS_HAVING_ERROR
 
     cfg = json.loads(open(config_path, encoding="utf-8").read())
     for key, expected in cfg.items():
-        assert getattr(s, key) == expected, SETTINGS_ATTRS_ERROR
+        assert getattr(settings, key) == expected, SETTINGS_ATTRS_ERROR
 
 
 def test_load_settings_file_not_found(tmp_path):
@@ -28,13 +28,15 @@ def test_load_settings_file_not_found(tmp_path):
 
 
 def test_load_settings_invalid_json(tmp_path, valid_config_dict):
-    """Проверка, что если JSON не валидного формата."""
-    """Программа должна остановиться."""
-    p = tmp_path / 'config.json'
-    p.write_text('{not json', encoding='utf-8')
+    """Проверка, что если JSON не валидного формата.
+
+    Программа должна остановиться.
+    """
+    config_path = tmp_path / 'config.json'
+    config_path.write_text('{not json', encoding='utf-8')
 
     with pytest.raises(ConfigError):
-        load_settings(str(p))
+        load_settings(str(config_path))
 
 
 def test_load_settings_missing_field(config_path):

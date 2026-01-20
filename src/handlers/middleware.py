@@ -2,9 +2,9 @@
 
 from starlette.middleware.base import BaseHTTPMiddleware
 
-from src.handlers.errors import BODY_TOO_LARGE, UNPROCESS_ENTITY
+from src.constants import BODY_TOO_LARGE, UNPROCESS_ENTITY
 from src.handlers.json_response_builder import build_json_response
-from src.log.log_messages import (
+from src.constants import (
     LOG_BODY_TOO_LARGE,
     LOG_CONTENT_LENGTH_INVALID,
     LOG_INVALID_CONTENT_TYPE,

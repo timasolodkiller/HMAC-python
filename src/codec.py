@@ -3,8 +3,7 @@
 import base64
 import re
 
-
-SIGNATURE_BYTES_LENGTH = 32
+from src.constants import PADDING_ADD_LENGTH, SIGNATURE_BYTES_LENGTH
 
 
 def encode_signature(sig_bytes: bytes) -> str:
@@ -14,7 +13,7 @@ def encode_signature(sig_bytes: bytes) -> str:
 
 def decode_signature(sig_str: str) -> bytes:
     """Декодирует строку base64url обратно в байты."""
-    pad = (-len(sig_str)) % 4
+    pad = (-len(sig_str)) % PADDING_ADD_LENGTH
     sig_str += '=' * pad
     return base64.urlsafe_b64decode(sig_str)
 

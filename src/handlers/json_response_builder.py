@@ -2,7 +2,7 @@
 
 from fastapi.responses import JSONResponse
 
-from .errors import STATUS_BY_CODE
+from src.constants import STATUS_BY_CODE
 
 
 def build_json_response(code: str):

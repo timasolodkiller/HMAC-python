@@ -4,7 +4,7 @@ import base64
 import hashlib
 import hmac
 
-from src.log.log_messages import (
+from src.constants import (
     LOG_MSG_SIGNED,
     LOG_SECRET_DECODED,
     LOG_SIGN_COMPLETE,

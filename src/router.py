@@ -7,7 +7,7 @@ from fastapi.responses import JSONResponse
 
 from src.codec import decode_signature, encode_signature
 from src.hmac_service import HMACSigner, hmac_service
-from src.log.log_messages import (
+from src.constants import (
     LOG_REQUEST_BODY,
     LOG_SIGN_REQUEST,
     LOG_SIGN_SUCCESS,

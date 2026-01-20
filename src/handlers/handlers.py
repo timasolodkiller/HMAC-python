@@ -4,14 +4,14 @@ from fastapi import FastAPI, Request
 from fastapi.exceptions import RequestValidationError
 
 from src.exceptions.exceptions import AppError
-from src.log.log_messages import (
+from src.constants import (
     LOG_APP_ERROR,
     LOG_UNEXPECTED_ERROR,
     LOG_VALIDATION_ERROR,
 )
 from src.log.logger import setup_logger
 
-from .errors import INVALID_JSON, INVALID_MSG, INVALID_SIGNATURE
+from src.constants import INVALID_JSON, INVALID_MSG, INVALID_SIGNATURE
 from .json_response_builder import build_json_response
 
 logger = setup_logger(__name__)

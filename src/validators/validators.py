@@ -2,13 +2,13 @@
 
 from src.codec import is_valid_base64url
 from src.exceptions.exceptions import AppError
-from src.handlers.errors import INVALID_MSG, INVALID_SIGNATURE
-from src.log.log_messages import (
+from src.constants import (
     LOG_EMPTY_MSG,
     LOG_INVALID_SIGNATURE_FORMAT,
     LOG_MSG_TOO_LARGE,
     LOG_MSG_VALID,
     LOG_SIGNATURE_FORMAT_VALID,
+    INVALID_MSG, INVALID_SIGNATURE
 )
 from src.log.logger import setup_logger
 

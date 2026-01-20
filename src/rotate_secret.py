@@ -5,9 +5,12 @@ import json
 import secrets
 
 from src.utils import get_config_path
-
+from src.log.logger import setup_logger
+from src.constants import LOG_NEW_SECRET, LOG_ROTATE_SUCCESS
 
 CONFIG_PATH = get_config_path(__file__)
+
+logger = setup_logger(__name__)
 
 
 def generate_secret(length: int = 32) -> str:
@@ -27,8 +30,8 @@ def rotate_secret(config_path: str = CONFIG_PATH):
     with open(config_path, 'w', encoding='utf-8') as f:
         json.dump(config, f, indent=2, ensure_ascii=False)
 
-    print('Секрет успешно обновлён!')
-    print(f'Новый секрет: {new_secret[:10]}...')
+    logger.info(LOG_ROTATE_SUCCESS)
+    logger.debug(LOG_NEW_SECRET.format(new_secret[:10]))
 
 
 if __name__ == '__main__':
